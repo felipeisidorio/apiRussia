@@ -1059,7 +1059,6 @@
     "round_16": {
       "name": "Round of 16",
       "matches": [
-        ,
         {
           "name": 49,
           "type": "qualified",
@@ -1244,8 +1243,7 @@
           "stadium": 11,
           "finished": false,
           "matchday": 5
-        }
-        
+        }      
       ]
     },
     "round_4": {

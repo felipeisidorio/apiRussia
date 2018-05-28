@@ -400,7 +400,7 @@
       "fifaCode": "COL",
       "pontos": 0,
       "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/450px-Flag_of_Colombia.png",
-      "jogos": "flag-co",
+      "jogos": 0,
       "saldoGols": 0
     },
     {
@@ -503,24 +503,24 @@
         {
           "name": 3,
           "type": "group",
-          "home_team": 5,
-          "away_team": 6,
-          "home_result": null,
-          "away_result": null,
-          "date": "2018-06-15T21:00:00+03:00",
-          "stadium": 11,
-          "finished": false,
-          "matchday": 1
-        },
-        {
-          "name": 4,
-          "type": "group",
           "home_team": 7,
           "away_team": 8,
           "home_result": null,
           "away_result": null,
           "date": "2018-06-15T18:00:00+03:00",
           "stadium": 3,
+          "finished": false,
+          "matchday": 1
+        },
+        {
+          "name": 4,
+          "type": "group",
+          "home_team": 5,
+          "away_team": 6,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-15T21:00:00+03:00",
+          "stadium": 11,
           "finished": false,
           "matchday": 1
         },
@@ -603,21 +603,9 @@
           "stadium": 9,
           "finished": false,
           "matchday": 1
-        },
+        },     
         {
           "name": 21,
-          "type": "group",
-          "home_team": 9,
-          "away_team": 11,
-          "home_result": null,
-          "away_result": null,
-          "date": "2018-06-21T20:00:00+05:00",
-          "stadium": 12,
-          "finished": false,
-          "matchday": 2
-        },
-        {
-          "name": 22,
           "type": "group",
           "home_team": 12,
           "away_team": 10,
@@ -625,6 +613,18 @@
           "away_result": null,
           "date": "2018-06-21T16:00:00+04:00",
           "stadium": 7,
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 22,
+          "type": "group",
+          "home_team": 9,
+          "away_team": 11,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-21T20:00:00+05:00",
+          "stadium": 12,
           "finished": false,
           "matchday": 2
         },
@@ -743,18 +743,6 @@
         {
           "name": 9,
           "type": "group",
-          "home_team": 17,
-          "away_team": 18,
-          "home_result": null,
-          "away_result": null,
-          "date": "2018-06-17T21:00:00+03:00",
-          "stadium": 10,
-          "finished": false,
-          "matchday": 1
-        },
-        {
-          "name": 10,
-          "type": "group",
           "home_team": 19,
           "away_team": 20,
           "home_result": null,
@@ -764,6 +752,18 @@
           "finished": false,
           "matchday": 1
         },
+        {
+          "name": 10,
+          "type": "group",
+          "home_team": 17,
+          "away_team": 18,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-17T21:00:00+03:00",
+          "stadium": 10,
+          "finished": false,
+          "matchday": 1
+        },        
         {
           "name": 25,
           "type": "group",
@@ -843,21 +843,9 @@
           "stadium": 6,
           "finished": false,
           "matchday": 1
-        },
+        },       
         {
           "name": 27,
-          "type": "group",
-          "home_team": 21,
-          "away_team": 23,
-          "home_result": null,
-          "away_result": null,
-          "date": "2018-06-23T21:00:00+03:00",
-          "stadium": 11,
-          "finished": false,
-          "matchday": 2
-        },
-        {
-          "name": 28,
           "type": "group",
           "home_team": 24,
           "away_team": 22,
@@ -865,6 +853,18 @@
           "away_result": null,
           "date": "2018-06-23T18:00:00+03:00",
           "stadium": 10,
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 28,
+          "type": "group",
+          "home_team": 21,
+          "away_team": 23,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-23T21:00:00+03:00",
+          "stadium": 11,
           "finished": false,
           "matchday": 2
         },
@@ -983,24 +983,24 @@
         {
           "name": 15,
           "type": "group",
-          "home_team": 29,
-          "away_team": 30,
-          "home_result": null,
-          "away_result": null,
-          "date": "2018-06-19T18:00:00+03:00",
-          "stadium": 2,
-          "finished": false,
-          "matchday": 1
-        },
-        {
-          "name": 16,
-          "type": "group",
           "home_team": 31,
           "away_team": 32,
           "home_result": null,
           "away_result": null,
           "date": "2018-06-19T15:00:00+03:00",
           "stadium": 9,
+          "finished": false,
+          "matchday": 1
+        },
+        {
+          "name": 16,
+          "type": "group",
+          "home_team": 29,
+          "away_team": 30,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-19T18:00:00+03:00",
+          "stadium": 2,
           "finished": false,
           "matchday": 1
         },

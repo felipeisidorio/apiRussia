@@ -1,5 +1,29 @@
 {
   "news" :[
+    {
+      "id": 1,
+      "titulo": "Neymar e mais três abrem trabalhos da seleção brasileira no campo",
+      "subTitulo": "Comissão técnica antecipa atividades no gramado e manda quarteto acompanhado pelos preparadores físicos",
+      "texto": "O atacante Neymar vai puxar a fila dos jogadores nos treinamentos dentro de campo nesse início de preparação para a Copa do Mundo. Na tarde",
+      "link": "",
+      "img": ""
+    },
+    {
+      "id": 2,
+      "titulo": "Neymar e mais três abrem trabalhos da seleção brasileira no campo",
+      "subTitulo": "Comissão técnica antecipa atividades no gramado e manda quarteto acompanhado pelos preparadores físicos",
+      "texto": "O atacante Neymar vai puxar a fila dos jogadores nos treinamentos dentro de campo nesse início de preparação para a Copa do Mundo. Na tarde",
+      "link": "",
+      "img": ""
+    },
+    {
+      "id": 3,
+      "titulo": "Neymar e mais três abrem trabalhos da seleção brasileira no campo",
+      "subTitulo": "Comissão técnica antecipa atividades no gramado e manda quarteto acompanhado pelos preparadores físicos",
+      "texto": "O atacante Neymar vai puxar a fila dos jogadores nos treinamentos dentro de campo nesse início de preparação para a Copa do Mundo. Na tarde",
+      "link": "",
+      "img": ""
+    }    
   ],
   "stadiums": [
     {
@@ -122,7 +146,7 @@
       "id": 3,
       "name": "Egypt",
       "fifaCode": "EGY",
-      "pontos": "eg",
+      "pontos": 0,
       "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/900px-Flag_of_Egypt.png",
       "jogos": 0,
       "saldoGols": 0

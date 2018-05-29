@@ -2,27 +2,27 @@
   "news" :[
     {
       "id": 1,
-      "titulo": "Neymar e mais três abrem trabalhos da seleção brasileira no campo",
-      "subTitulo": "Comissão técnica antecipa atividades no gramado e manda quarteto acompanhado pelos preparadores físicos",
-      "texto": "O atacante Neymar vai puxar a fila dos jogadores nos treinamentos dentro de campo nesse início de preparação para a Copa do Mundo. Na tarde",
-      "link": "",
-      "img": ""
+      "titulo": "França Campeã da Copa?",
+      "subTitulo": "Confira a simulação do Game da EA",
+      "texto": "De acordo com game da EA, Seleção perde para a Bélgica por 2 x 0. Jogo previu vitórias de Espanha em 2010 e Alemanha em 2014",
+      "link": "https://sportv.globo.com/site/e-sportv/noticia/simulacao-do-fifa-18-aponta-brasil-fora-nas-quartas-e-franca-campea-da-copa.ghtml",
+      "img": "https://s2.glbimg.com/Sf7hD7TDFqLjo1LmoPqa-nsXhm8=/0x0:764x432/540x304/smart/http://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2018/j/4/XAMedHSv2COCcNdMGuQQ/tabela-ea-fifa.jpg"
     },
     {
       "id": 2,
-      "titulo": "Neymar e mais três abrem trabalhos da seleção brasileira no campo",
-      "subTitulo": "Comissão técnica antecipa atividades no gramado e manda quarteto acompanhado pelos preparadores físicos",
-      "texto": "O atacante Neymar vai puxar a fila dos jogadores nos treinamentos dentro de campo nesse início de preparação para a Copa do Mundo. Na tarde",
-      "link": "",
-      "img": ""
+      "titulo": "Três ou Quatro semanas",
+      "subTitulo": "Fisioterapeuta faz previsão de volta de Salah",
+      "texto": "Salah chega à Espanha em silêncio, e fisioterapeuta faz previsão de volta. Pessoas próximas mostram otimismo em reduzir o prazo.",
+      "link": "https://sportv.globo.com/site/programas/copa-2018/noticia/salah-chega-a-espanha-em-silencio-e-fisioterapeuta-preve-volta-em-tres-ou-quatro-semanas.ghtml",
+      "img": "https://s2.glbimg.com/3vWWFp4nLXhEtvvT4RrwYL6XKkI=/0x0:1327x948/540x304/smart/http://s2.glbimg.com/DPOOsl7-lmuU2OZwUdy_T89Q1K0=/0x0:1327x948/1327x948/s.glbimg.com/es/ge/f/original/2018/05/27/2018-05-26t191527z_836090567_rc12cf23a850_rtrmadp_3_soccer-champions-final.jpg"
     },
     {
       "id": 3,
-      "titulo": "Neymar e mais três abrem trabalhos da seleção brasileira no campo",
-      "subTitulo": "Comissão técnica antecipa atividades no gramado e manda quarteto acompanhado pelos preparadores físicos",
+      "titulo": "Seleção Treina em Londres",
+      "subTitulo": "Confira os preparativos para Copa da Rússia",
       "texto": "O atacante Neymar vai puxar a fila dos jogadores nos treinamentos dentro de campo nesse início de preparação para a Copa do Mundo. Na tarde",
-      "link": "",
-      "img": ""
+      "link": "https://globoesporte.globo.com/futebol/selecao-brasileira/ao-vivo/acompanhe-o-dia-a-dia-da-selecao.ghtml",
+      "img": "https://s2.glbimg.com/xWXBQD73W9SDMT-lKve8MIbfG68=/0x0:2048x1365/540x304/smart/http://s.glbimg.com/es/ge/f/original/2018/05/22/41558114574_9327583c0a_k.jpg"
     }    
   ],
   "stadiums": [
@@ -238,7 +238,7 @@
       "fifaCode": "ARG",
       "pontos": 0,
       "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/800px-Flag_of_Argentina.png",
-      "jogos": "flag-ar",
+      "jogos": 0,
       "saldoGols": 0
     },
     {
@@ -256,7 +256,7 @@
       "fifaCode": "CRO",
       "pontos": 0,
       "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/800px-Flag_of_Croatia.png",
-      "jogos": "flag-hr",
+      "jogos": 0,
       "saldoGols": 0
     },
     {

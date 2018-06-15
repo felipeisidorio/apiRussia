@@ -155,18 +155,18 @@
             "id": 7,
             "name": "Morocco",
             "fifaCode": "MAR",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/900px-Flag_of_Morocco.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
             "id": 8,
             "name": "Iran",
             "fifaCode": "IRN",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/630px-Flag_of_Iran.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
@@ -476,8 +476,8 @@
                     "type": "group",
                     "home_team": 7,
                     "away_team": 8,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-15T18:00:00+03:00",
                     "stadium": 3,
                     "finished": false,

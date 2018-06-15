@@ -119,18 +119,18 @@
             "id": 3,
             "name": "Egypt",
             "fifaCode": "EGY",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/900px-Flag_of_Egypt.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
             "id": 4,
             "name": "Uruguay",
             "fifaCode": "URU",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/900px-Flag_of_Uruguay.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
@@ -391,7 +391,7 @@
             "name": "Group A",
             "winner": null,
             "runnerup": null,
-            "teams": [1, 2, 3, 4],
+            "teams": [1,  3, 4, 2],
             "matches": [{
                     "name": 1,
                     "type": "group",
@@ -409,8 +409,8 @@
                     "type": "group",
                     "home_team": 3,
                     "away_team": 4,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-15T17:00:00+05:00",
                     "stadium": 12,
                     "finished": false,

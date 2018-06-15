@@ -137,18 +137,18 @@
             "id": 5,
             "name": "Portugal",
             "fifaCode": "POR",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/600px-Flag_of_Portugal.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
             "id": 6,
             "name": "Spain",
             "fifaCode": "ESP",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/750px-Flag_of_Spain.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
@@ -488,8 +488,8 @@
                     "type": "group",
                     "home_team": 5,
                     "away_team": 6,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-15T21:00:00+03:00",
                     "stadium": 11,
                     "finished": false,

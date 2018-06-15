@@ -158,7 +158,7 @@
             "pontos": 0,
             "flag": "../assets/imgs/teams/900px-Flag_of_Morocco.png",
             "jogos": 1,
-            "saldoGols": 0
+            "saldoGols": -1
         },
         {
             "id": 8,

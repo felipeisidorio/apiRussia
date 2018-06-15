@@ -140,7 +140,7 @@
             "pontos": 1,
             "flag": "../assets/imgs/teams/600px-Flag_of_Portugal.png",
             "jogos": 1,
-            "saldoGols": 1
+            "saldoGols": 0
         },
         {
             "id": 6,
@@ -149,7 +149,7 @@
             "pontos": 1,
             "flag": "../assets/imgs/teams/750px-Flag_of_Spain.png",
             "jogos": 1,
-            "saldoGols": -1
+            "saldoGols": 0
         },
         {
             "id": 7,

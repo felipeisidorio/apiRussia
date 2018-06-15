@@ -1,4 +1,1285 @@
 {
+    "stadiums": [{
+            "id": 1,
+            "name": "Luzhniki Stadium",
+            "city": "Moscow",
+            "lat": 55.715765,
+            "lng": 37.5515217,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Luzhniki_Stadium%2C_Moscow.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Otkrytiye Arena",
+            "city": "Moscow",
+            "lat": 55.817765,
+            "lng": 37.440363,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Stadium_Spartak_in_Moscow.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Krestovsky Stadium",
+            "city": "Saint Petersburg",
+            "lat": 59.972740,
+            "lng": 30.221408,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Spb_06-2017_img40_Krestovsky_Stadium.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Kaliningrad Stadium",
+            "city": "Kaliningrad",
+            "lat": 54.698157,
+            "lng": 20.533859,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Kaliningrad_stadium_-_2018-04-07.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Kazan Arena",
+            "city": "Kazan",
+            "lat": 55.820983,
+            "lng": 49.160966,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Kazan_Arena_08-2016.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Nizhny Novgorod Stadium",
+            "city": "Nizhny Novgorod",
+            "lat": 56.337287,
+            "lng": 43.963251,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Nizhny_Novgorod_Stadium_%28March_2018%29.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Cosmos Arena",
+            "city": "Samara",
+            "lat": 53.278146,
+            "lng": 50.238854,
+            "image": "http://img.fifa.com/image/upload/t_l4/d0mymt1ubl2pypmu3gn3.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Volgograd Arena",
+            "city": "Volgograd",
+            "lat": 48.734195,
+            "lng": 44.548345,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Construction_of_Volgograd_Arena_inside_04.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Mordovia Arena",
+            "city": "Saransk",
+            "lat": 54.181795,
+            "lng": 45.203851,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/%D0%A1%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_Mordovia_arena.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Rostov Arena",
+            "city": "Rostov-on-Don",
+            "lat": 47.209581,
+            "lng": 39.738424,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Rostov-Arens_%28april_2018%29_01.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Fisht Olympic Stadium",
+            "city": "Sochi",
+            "lat": 43.402011,
+            "lng": 39.955709,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Fisht_Stadium_in_January_2018.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Central Stadium",
+            "city": "Yekaterinburg",
+            "lat": 56.832490,
+            "lng": 60.573585,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Estadio_Central_%28Ekaterinburg-arena%29.jpg"
+        }
+    ],
+
+    "teams": [{
+            "id": 1,
+            "name": "Russia",
+            "fifaCode": "RUS",
+            "pontos": 3,
+            "flag": "../assets/imgs/teams/900px-Flag_of_Russia.png",
+            "jogos": 1,
+            "saldoGols": 5
+        },
+        {
+            "id": 2,
+            "name": "Saudi Arabia",
+            "fifaCode": "KSA",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/750px-Flag_of_Saudi_Arabia.png",
+            "jogos": 1,
+            "saldoGols": -5
+        },
+        {
+            "id": 3,
+            "name": "Egypt",
+            "fifaCode": "EGY",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/900px-Flag_of_Egypt.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 4,
+            "name": "Uruguay",
+            "fifaCode": "URU",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/900px-Flag_of_Uruguay.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 5,
+            "name": "Portugal",
+            "fifaCode": "POR",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/600px-Flag_of_Portugal.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 6,
+            "name": "Spain",
+            "fifaCode": "ESP",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/750px-Flag_of_Spain.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 7,
+            "name": "Morocco",
+            "fifaCode": "MAR",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/900px-Flag_of_Morocco.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 8,
+            "name": "Iran",
+            "fifaCode": "IRN",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/630px-Flag_of_Iran.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 9,
+            "name": "France",
+            "fifaCode": "FRA",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/900px-Flag_of_France.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 10,
+            "name": "Australia",
+            "fifaCode": "AUS",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/1280px-Flag_of_Australia.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 11,
+            "name": "Peru",
+            "fifaCode": "PER",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/900px-Flag_of_Peru.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 12,
+            "name": "Denmark",
+            "fifaCode": "DEN",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/740px-Flag_of_Denmark.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 13,
+            "name": "Argentina",
+            "fifaCode": "ARG",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/800px-Flag_of_Argentina.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 14,
+            "name": "Iceland",
+            "fifaCode": "ISL",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/800px-Flag_of_Iceland.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 15,
+            "name": "Croatia",
+            "fifaCode": "CRO",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/800px-Flag_of_Croatia.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 16,
+            "name": "Nigeria",
+            "fifaCode": "NGA",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/800px-Flag_of_Nigeria.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 17,
+            "name": "Brazil",
+            "fifaCode": "BRA",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/720px-Flag_of_Brazil.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 18,
+            "name": "Switzerland",
+            "fifaCode": "SUI",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/320px-Flag_of_Switzerland.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 19,
+            "name": "Costa Rica",
+            "fifaCode": "CRC",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/833px-Flag_of_Costa_Rica.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 20,
+            "name": "Serbia",
+            "fifaCode": "SRB",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/1350px-Flag_of_Serbia.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 21,
+            "name": "Germany",
+            "fifaCode": "GER",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/800px-Flag_of_Germany.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 22,
+            "name": "Mexico",
+            "fifaCode": "MEX",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/800px-Flag_of_Mexico.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 23,
+            "name": "Sweden",
+            "fifaCode": "SWE",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/1600px-Flag_of_Sweden.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 24,
+            "name": "South Korea",
+            "fifaCode": "KOR",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/900px-Flag_of_South_Korea.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 25,
+            "name": "Belgium",
+            "fifaCode": "BEL",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/450px-Flag_of_Belgium.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 26,
+            "name": "Panama",
+            "fifaCode": "PAN",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/450px-Flag_of_Panama.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 27,
+            "name": "Tunisia",
+            "fifaCode": "TUN",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/1200px-Flag_of_Tunisia.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 28,
+            "name": "England",
+            "fifaCode": "ENG",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/800px-Flag_of_England.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 29,
+            "name": "Poland",
+            "fifaCode": "POL",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/1280px-Flag_of_Poland.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 30,
+            "name": "Senegal",
+            "fifaCode": "SEN",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/800px-Flag_of_Senegal.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 31,
+            "name": "Colombia",
+            "fifaCode": "COL",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/450px-Flag_of_Colombia.png",
+            "jogos": 0,
+            "saldoGols": 0
+        },
+        {
+            "id": 32,
+            "name": "Japan",
+            "fifaCode": "JPN",
+            "pontos": 0,
+            "flag": "../assets/imgs/teams/900px-Flag_of_Japan.png",
+            "jogos": 0,
+            "saldoGols": 0
+        }
+    ],
+    "groups": {
+        "a": {
+            "name": "Group A",
+            "winner": null,
+            "runnerup": null,
+            "teams": [1, 2, 3, 4],
+            "matches": [{
+                    "name": 1,
+                    "type": "group",
+                    "home_team": 1,
+                    "away_team": 2,
+                    "home_result": 4,
+                    "away_result": 0,
+                    "date": "2018-06-14T18:00:00+03:00",
+                    "stadium": 1,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 2,
+                    "type": "group",
+                    "home_team": 3,
+                    "away_team": 4,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-15T17:00:00+05:00",
+                    "stadium": 12,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 17,
+                    "type": "group",
+                    "home_team": 1,
+                    "away_team": 3,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-19T21:00:00+03:00",
+                    "stadium": 3,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 18,
+                    "type": "group",
+                    "home_team": 4,
+                    "away_team": 2,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-20T18:00:00+03:00",
+                    "stadium": 10,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 33,
+                    "type": "group",
+                    "home_team": 4,
+                    "away_team": 1,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-25T18:00:00+04:00",
+                    "stadium": 7,
+                    "finished": false,
+                    "matchday": 3
+                },
+                {
+                    "name": 34,
+                    "type": "group",
+                    "home_team": 2,
+                    "away_team": 3,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-25T17:00:00+03:00",
+                    "stadium": 8,
+                    "finished": false,
+                    "matchday": 3
+                }
+            ]
+        },
+        "b": {
+            "name": "Group B",
+            "winner": null,
+            "runnerup": null,
+            "teams": [5, 6, 7, 8],
+            "matches": [{
+                    "name": 3,
+                    "type": "group",
+                    "home_team": 7,
+                    "away_team": 8,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-15T18:00:00+03:00",
+                    "stadium": 3,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 4,
+                    "type": "group",
+                    "home_team": 5,
+                    "away_team": 6,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-15T21:00:00+03:00",
+                    "stadium": 11,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 19,
+                    "type": "group",
+                    "home_team": 5,
+                    "away_team": 7,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-20T15:00:00+03:00",
+                    "stadium": 1,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 20,
+                    "type": "group",
+                    "home_team": 8,
+                    "away_team": 6,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-20T21:00:00+03:00",
+                    "stadium": 5,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 35,
+                    "type": "group",
+                    "home_team": 8,
+                    "away_team": 5,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-25T21:00:00+03:00",
+                    "stadium": 9,
+                    "finished": false,
+                    "matchday": 3
+                },
+                {
+                    "name": 36,
+                    "type": "group",
+                    "home_team": 6,
+                    "away_team": 7,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-25T20:00:00+02:00",
+                    "stadium": 4,
+                    "finished": false,
+                    "matchday": 3
+                }
+            ]
+        },
+        "c": {
+            "name": "Group C",
+            "winner": null,
+            "runnerup": null,
+            "teams": [9, 10, 11, 12],
+            "matches": [{
+                    "name": 5,
+                    "type": "group",
+                    "home_team": 9,
+                    "away_team": 10,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-16T13:00:00+03:00",
+                    "stadium": 5,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 6,
+                    "type": "group",
+                    "home_team": 11,
+                    "away_team": 12,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-16T19:00:00+03:00",
+                    "stadium": 9,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 21,
+                    "type": "group",
+                    "home_team": 12,
+                    "away_team": 10,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-21T16:00:00+04:00",
+                    "stadium": 7,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 22,
+                    "type": "group",
+                    "home_team": 9,
+                    "away_team": 11,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-21T20:00:00+05:00",
+                    "stadium": 12,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 37,
+                    "type": "group",
+                    "home_team": 12,
+                    "away_team": 9,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-26T17:00:00+03:00",
+                    "stadium": 1,
+                    "finished": false,
+                    "matchday": 3
+                },
+                {
+                    "name": 38,
+                    "type": "group",
+                    "home_team": 10,
+                    "away_team": 11,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-26T17:00:00+02:00",
+                    "stadium": 11,
+                    "finished": false,
+                    "matchday": 3
+                }
+            ]
+        },
+        "d": {
+            "name": "Group D",
+            "winner": null,
+            "runnerup": null,
+            "teams": [13, 14, 15, 16],
+            "matches": [{
+                    "name": 7,
+                    "type": "group",
+                    "home_team": 13,
+                    "away_team": 14,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-16T16:00:00+03:00",
+                    "stadium": 2,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 8,
+                    "type": "group",
+                    "home_team": 15,
+                    "away_team": 16,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-16T21:00:00+02:00",
+                    "stadium": 4,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 23,
+                    "type": "group",
+                    "home_team": 13,
+                    "away_team": 15,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-21T21:00:00+03:00",
+                    "stadium": 6,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 24,
+                    "type": "group",
+                    "home_team": 16,
+                    "away_team": 14,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-22T18:00:00+03:00",
+                    "stadium": 8,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 39,
+                    "type": "group",
+                    "home_team": 16,
+                    "away_team": 13,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-26T21:00:00+03:00",
+                    "stadium": 3,
+                    "finished": false,
+                    "matchday": 3
+                },
+                {
+                    "name": 40,
+                    "type": "group",
+                    "home_team": 14,
+                    "away_team": 15,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-26T21:00:00+03:00",
+                    "stadium": 10,
+                    "finished": false,
+                    "matchday": 3
+                }
+            ]
+        },
+        "e": {
+            "name": "Group E",
+            "winner": null,
+            "runnerup": null,
+            "teams": [17, 18, 19, 20],
+            "matches": [{
+                    "name": 9,
+                    "type": "group",
+                    "home_team": 19,
+                    "away_team": 20,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-17T16:00:00+04:00",
+                    "stadium": 7,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 10,
+                    "type": "group",
+                    "home_team": 17,
+                    "away_team": 18,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-17T21:00:00+03:00",
+                    "stadium": 10,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 25,
+                    "type": "group",
+                    "home_team": 17,
+                    "away_team": 19,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-22T15:00:00+03:00",
+                    "stadium": 3,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 26,
+                    "type": "group",
+                    "home_team": 20,
+                    "away_team": 18,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-22T20:00:00+02:00",
+                    "stadium": 4,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 41,
+                    "type": "group",
+                    "home_team": 20,
+                    "away_team": 17,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-27T21:00:00+03:00",
+                    "stadium": 2,
+                    "finished": false,
+                    "matchday": 3
+                },
+                {
+                    "name": 42,
+                    "type": "group",
+                    "home_team": 18,
+                    "away_team": 19,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-27T21:00:00+03:00",
+                    "stadium": 6,
+                    "finished": false,
+                    "matchday": 3
+                }
+            ]
+        },
+        "f": {
+            "name": "Group F",
+            "winner": null,
+            "runnerup": null,
+            "teams": [21, 22, 23, 24],
+            "matches": [{
+                    "name": 11,
+                    "type": "group",
+                    "home_team": 21,
+                    "away_team": 22,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-17T18:00:00+03:00",
+                    "stadium": 1,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 12,
+                    "type": "group",
+                    "home_team": 23,
+                    "away_team": 24,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-18T15:00:00+03:00",
+                    "stadium": 6,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 27,
+                    "type": "group",
+                    "home_team": 24,
+                    "away_team": 22,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-23T18:00:00+03:00",
+                    "stadium": 10,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 28,
+                    "type": "group",
+                    "home_team": 21,
+                    "away_team": 23,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-23T21:00:00+03:00",
+                    "stadium": 11,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 43,
+                    "type": "group",
+                    "home_team": 24,
+                    "away_team": 21,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-27T17:00:00+03:00",
+                    "stadium": 5,
+                    "finished": false,
+                    "matchday": 3
+                },
+                {
+                    "name": 44,
+                    "type": "group",
+                    "home_team": 22,
+                    "away_team": 23,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-27T19:00:00+05:00",
+                    "stadium": 12,
+                    "finished": false,
+                    "matchday": 3
+                }
+            ]
+        },
+        "g": {
+            "name": "Group G",
+            "winner": null,
+            "runnerup": null,
+            "teams": [25, 26, 27, 28],
+            "matches": [{
+                    "name": 13,
+                    "type": "group",
+                    "home_team": 25,
+                    "away_team": 26,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-18T18:00:00+03:00",
+                    "stadium": 11,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 14,
+                    "type": "group",
+                    "home_team": 27,
+                    "away_team": 28,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-18T21:00:00+03:00",
+                    "stadium": 8,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 29,
+                    "type": "group",
+                    "home_team": 25,
+                    "away_team": 27,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-23T15:00:00+03:00",
+                    "stadium": 2,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 30,
+                    "type": "group",
+                    "home_team": 28,
+                    "away_team": 26,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-24T15:00:00+03:00",
+                    "stadium": 6,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 45,
+                    "type": "group",
+                    "home_team": 28,
+                    "away_team": 25,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-28T20:00:00+02:00",
+                    "stadium": 4,
+                    "finished": false,
+                    "matchday": 3
+                },
+                {
+                    "name": 46,
+                    "type": "group",
+                    "home_team": 26,
+                    "away_team": 27,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-28T21:00:00+03:00",
+                    "stadium": 9,
+                    "finished": false,
+                    "matchday": 3
+                }
+            ]
+        },
+        "h": {
+            "name": "Group H",
+            "winner": null,
+            "runnerup": null,
+            "teams": [29, 30, 31, 32],
+            "matches": [{
+                    "name": 15,
+                    "type": "group",
+                    "home_team": 31,
+                    "away_team": 32,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-19T15:00:00+03:00",
+                    "stadium": 9,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 16,
+                    "type": "group",
+                    "home_team": 29,
+                    "away_team": 30,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-19T18:00:00+03:00",
+                    "stadium": 2,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 31,
+                    "type": "group",
+                    "home_team": 29,
+                    "away_team": 31,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-24T20:00:00+05:00",
+                    "stadium": 5,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 32,
+                    "type": "group",
+                    "home_team": 32,
+                    "away_team": 30,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-24T21:00:00+03:00",
+                    "stadium": 12,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 47,
+                    "type": "group",
+                    "home_team": 32,
+                    "away_team": 29,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-28T17:00:00+03:00",
+                    "stadium": 8,
+                    "finished": false,
+                    "matchday": 3
+                },
+                {
+                    "name": 48,
+                    "type": "group",
+                    "home_team": 30,
+                    "away_team": 31,
+                    "home_result": null,
+                    "away_result": null,
+                    "date": "2018-06-28T18:00:00+04:00",
+                    "stadium": 7,
+                    "finished": false,
+                    "matchday": 3
+                }
+            ]
+        }
+    },
+    "knockout": {
+        "round_16": {
+            "name": "Round of 16",
+            "matches": [{
+                    "name": 49,
+                    "type": "qualified",
+                    "home_team": "winner_c",
+                    "away_team": "runner_d",
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-06-30T21:00:00+03:00",
+                    "stadium": 5,
+                    "finished": false,
+                    "matchday": 4
+                },
+                {
+                    "name": 50,
+                    "type": "qualified",
+                    "home_team": "winner_a",
+                    "away_team": "runner_b",
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-06-30T17:00:00+03:00",
+                    "stadium": 11,
+                    "finished": false,
+                    "matchday": 4
+                },
+                {
+                    "name": 51,
+                    "type": "qualified",
+                    "home_team": "winner_b",
+                    "away_team": "runner_a",
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-07-01T17:00:00+03:00",
+                    "stadium": 1,
+                    "finished": false,
+                    "matchday": 4
+                },
+                {
+                    "name": 52,
+                    "type": "qualified",
+                    "home_team": "winner_e",
+                    "away_team": "runner_f",
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-07-02T18:00:00+04:00",
+                    "stadium": 7,
+                    "finished": false,
+                    "matchday": 4
+                },
+                {
+                    "name": 53,
+                    "type": "qualified",
+                    "home_team": "winner_d",
+                    "away_team": "runner_c",
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-07-01T21:00:00+03:00",
+                    "stadium": 6,
+                    "finished": false,
+                    "matchday": 4
+                },
+                {
+                    "name": 54,
+                    "type": "qualified",
+                    "home_team": "winner_g",
+                    "away_team": "runner_h",
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-07-02T21:00:00+03:00",
+                    "stadium": 10,
+                    "finished": false,
+                    "matchday": 4
+                },
+                {
+                    "name": 55,
+                    "type": "qualified",
+                    "home_team": "winner_f",
+                    "away_team": "runner_e",
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-07-03T17:00:00+03:00",
+                    "stadium": 3,
+                    "finished": false,
+                    "matchday": 4
+                },
+                {
+                    "name": 56,
+                    "type": "qualified",
+                    "home_team": "winner_h",
+                    "away_team": "runner_g",
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-07-03T21:00:00+03:00",
+                    "stadium": 2,
+                    "finished": false,
+                    "matchday": 4
+                }
+            ]
+        },
+        "round_8": {
+            "name": "Quarter-finals",
+            "matches": [{
+                    "name": 57,
+                    "type": "winner",
+                    "home_team": 49,
+                    "away_team": 50,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-07-06T17:00:00+03:00",
+                    "stadium": 6,
+                    "finished": false,
+                    "matchday": 5
+                },
+                {
+                    "name": 58,
+                    "type": "winner",
+                    "home_team": 53,
+                    "away_team": 54,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-07-06T21:00:00+03:00",
+                    "stadium": 5,
+                    "finished": false,
+                    "matchday": 5
+                },
+                {
+                    "name": 59,
+                    "type": "winner",
+                    "home_team": 55,
+                    "away_team": 56,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-07-07T18:00:00+04:00",
+                    "stadium": 7,
+                    "finished": false,
+                    "matchday": 5
+                },
+                {
+                    "name": 60,
+                    "type": "winner",
+                    "home_team": 51,
+                    "away_team": 52,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-07-07T21:00:00+03:00",
+                    "stadium": 11,
+                    "finished": false,
+                    "matchday": 5
+                }
+            ]
+        },
+        "round_4": {
+            "name": "Semi-finals",
+            "matches": [{
+                    "name": 61,
+                    "type": "winner",
+                    "home_team": 57,
+                    "away_team": 58,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-07-10T21:00:00+03:00",
+                    "stadium": 3,
+                    "finished": false,
+                    "matchday": 6
+                },
+                {
+                    "name": 62,
+                    "type": "winner",
+                    "home_team": 59,
+                    "away_team": 60,
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-07-11T21:00:00+03:00",
+                    "stadium": 1,
+                    "finished": false,
+                    "matchday": 6
+                }
+            ]
+        },
+        "round_2_loser": {
+            "name": "Third place play-off",
+            "matches": [{
+                "name": 63,
+                "type": "loser",
+                "home_team": 61,
+                "away_team": 62,
+                "home_result": null,
+                "away_result": null,
+                "home_penalty": null,
+                "away_penalty": null,
+                "winner": null,
+                "date": "2018-07-14T17:00:00+03:00",
+                "stadium": 3,
+                "finished": false,
+                "matchday": 7
+            }]
+        },
+        "round_2": {
+            "name": "Final",
+            "matches": [{
+                "name": 64,
+                "type": "winner",
+                "home_team": 61,
+                "away_team": 62,
+                "home_result": null,
+                "away_result": null,
+                "home_penalty": null,
+                "away_penalty": null,
+                "winner": null,
+                "date": "2018-07-15T18:00:00+03:00",
+                "stadium": 1,
+                "finished": false,
+                "matchday": 7
+            }]
+        }
+    },
     "convocados": [{
             "Team": "Argentina",
             "Number": 1,
@@ -6348,7 +7629,7 @@
             "Weight": 72
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 1,
             "Pos.": "GK",
             "Name": "Igor AKINFEEV",
@@ -6360,7 +7641,7 @@
             "Weight": 83
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 2,
             "Pos.": "DF",
             "Name": "MARIO FERNANDES",
@@ -6372,7 +7653,7 @@
             "Weight": 79
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 3,
             "Pos.": "DF",
             "Name": "Ilya KUTEPOV",
@@ -6384,7 +7665,7 @@
             "Weight": 82
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 4,
             "Pos.": "DF",
             "Name": "Sergey IGNASHEVICH",
@@ -6396,7 +7677,7 @@
             "Weight": 84
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 5,
             "Pos.": "DF",
             "Name": "Andrey SEMENOV",
@@ -6408,7 +7689,7 @@
             "Weight": 87
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 6,
             "Pos.": "MF",
             "Name": "Denis CHERYSHEV",
@@ -6420,7 +7701,7 @@
             "Weight": 68
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 7,
             "Pos.": "MF",
             "Name": "Daler KUZIAEV",
@@ -6432,7 +7713,7 @@
             "Weight": 74
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 8,
             "Pos.": "MF",
             "Name": "Iury GAZINSKY",
@@ -6444,7 +7725,7 @@
             "Weight": 75
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 9,
             "Pos.": "MF",
             "Name": "Alan DZAGOEV",
@@ -6456,7 +7737,7 @@
             "Weight": 73
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 10,
             "Pos.": "FW",
             "Name": "Fedor SMOLOV",
@@ -6468,7 +7749,7 @@
             "Weight": 79
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 11,
             "Pos.": "MF",
             "Name": "Roman ZOBNIN",
@@ -6480,7 +7761,7 @@
             "Weight": 77
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 12,
             "Pos.": "GK",
             "Name": "Andrei LUNEV",
@@ -6492,7 +7773,7 @@
             "Weight": 80
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 13,
             "Pos.": "DF",
             "Name": "Fedor KUDRIASHOV",
@@ -6504,7 +7785,7 @@
             "Weight": 78
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 14,
             "Pos.": "DF",
             "Name": "Vladimir GRANAT",
@@ -6516,7 +7797,7 @@
             "Weight": 80
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 15,
             "Pos.": "MF",
             "Name": "Alexey MIRANCHUK",
@@ -6528,7 +7809,7 @@
             "Weight": 77
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 16,
             "Pos.": "MF",
             "Name": "Anton MIRANCHUK",
@@ -6540,7 +7821,7 @@
             "Weight": 67
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 17,
             "Pos.": "MF",
             "Name": "Aleksandr GOLOVIN",
@@ -6552,7 +7833,7 @@
             "Weight": 70
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 18,
             "Pos.": "MF",
             "Name": "Yury ZHIRKOV",
@@ -6564,7 +7845,7 @@
             "Weight": 76
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 19,
             "Pos.": "MF",
             "Name": "Alexander SAMEDOV",
@@ -6576,7 +7857,7 @@
             "Weight": 74
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 20,
             "Pos.": "GK",
             "Name": "Vladimir GABULOV",
@@ -6588,7 +7869,7 @@
             "Weight": 81
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 21,
             "Pos.": "MF",
             "Name": "Aleksandr EROKHIN",
@@ -6600,7 +7881,7 @@
             "Weight": 79
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 22,
             "Pos.": "FW",
             "Name": "Artem DZYUBA",
@@ -6612,7 +7893,7 @@
             "Weight": 90
         },
         {
-            "Team": 1,
+            "Team": "Russia",
             "Number": 23,
             "Pos.": "DF",
             "Name": "Igor SMOLNIKOV",
@@ -8831,1310 +10112,6 @@
             "Height": 187,
             "Weight": 82
         }
-    ],
-    "news": [{
-            "id": 1,
-            "titulo": "França Campeã 2017?",
-            "subTitulo": "Confira a simulação do Game da EA",
-            "texto": "De acordo com game da EA, Seleção perde para a Bélgica por 2 x 0. Jogo previu vitórias de Espanha em 2010 e Alemanha em 2014",
-            "link": "https://sportv.globo.com/site/e-sportv/noticia/simulacao-do-fifa-18-aponta-brasil-fora-nas-quartas-e-franca-campea-da-copa.ghtml",
-            "img": "https://s2.glbimg.com/Sf7hD7TDFqLjo1LmoPqa-nsXhm8=/0x0:764x432/540x304/smart/http://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2018/j/4/XAMedHSv2COCcNdMGuQQ/tabela-ea-fifa.jpg"
-        },
-        {
-            "id": 2,
-            "titulo": "Três ou Quatro semanas",
-            "subTitulo": "Fisioterapeuta faz previsão de volta de Salah",
-            "texto": "Salah chega à Espanha em silêncio, e fisioterapeuta faz previsão de volta. Pessoas próximas mostram otimismo em reduzir o prazo.",
-            "link": "https://sportv.globo.com/site/programas/copa-2018/noticia/salah-chega-a-espanha-em-silencio-e-fisioterapeuta-preve-volta-em-tres-ou-quatro-semanas.ghtml",
-            "img": "https://s2.glbimg.com/3vWWFp4nLXhEtvvT4RrwYL6XKkI=/0x0:1327x948/540x304/smart/http://s2.glbimg.com/DPOOsl7-lmuU2OZwUdy_T89Q1K0=/0x0:1327x948/1327x948/s.glbimg.com/es/ge/f/original/2018/05/27/2018-05-26t191527z_836090567_rc12cf23a850_rtrmadp_3_soccer-champions-final.jpg"
-        },
-        {
-            "id": 3,
-            "titulo": "Seleção Treina em Londres",
-            "subTitulo": "Confira os preparativos para Copa da Rússia",
-            "texto": "O atacante Neymar vai puxar a fila dos jogadores nos treinamentos dentro de campo nesse início de preparação para a Copa do Mundo. Na tarde",
-            "link": "https://globoesporte.globo.com/futebol/selecao-brasileira/ao-vivo/acompanhe-o-dia-a-dia-da-selecao.ghtml",
-            "img": "https://s2.glbimg.com/xWXBQD73W9SDMT-lKve8MIbfG68=/0x0:2048x1365/540x304/smart/http://s.glbimg.com/es/ge/f/original/2018/05/22/41558114574_9327583c0a_k.jpg"
-        }
-    ],
-    "stadiums": [{
-            "id": 1,
-            "name": "Luzhniki Stadium",
-            "city": "Moscow",
-            "lat": 55.715765,
-            "lng": 37.5515217,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Luzhniki_Stadium%2C_Moscow.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Otkrytiye Arena",
-            "city": "Moscow",
-            "lat": 55.817765,
-            "lng": 37.440363,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Stadium_Spartak_in_Moscow.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Krestovsky Stadium",
-            "city": "Saint Petersburg",
-            "lat": 59.972740,
-            "lng": 30.221408,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Spb_06-2017_img40_Krestovsky_Stadium.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Kaliningrad Stadium",
-            "city": "Kaliningrad",
-            "lat": 54.698157,
-            "lng": 20.533859,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Kaliningrad_stadium_-_2018-04-07.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Kazan Arena",
-            "city": "Kazan",
-            "lat": 55.820983,
-            "lng": 49.160966,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Kazan_Arena_08-2016.jpg"
-        },
-        {
-            "id": 6,
-            "name": "Nizhny Novgorod Stadium",
-            "city": "Nizhny Novgorod",
-            "lat": 56.337287,
-            "lng": 43.963251,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Nizhny_Novgorod_Stadium_%28March_2018%29.jpg"
-        },
-        {
-            "id": 7,
-            "name": "Cosmos Arena",
-            "city": "Samara",
-            "lat": 53.278146,
-            "lng": 50.238854,
-            "image": "http://img.fifa.com/image/upload/t_l4/d0mymt1ubl2pypmu3gn3.jpg"
-        },
-        {
-            "id": 8,
-            "name": "Volgograd Arena",
-            "city": "Volgograd",
-            "lat": 48.734195,
-            "lng": 44.548345,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Construction_of_Volgograd_Arena_inside_04.jpg"
-        },
-        {
-            "id": 9,
-            "name": "Mordovia Arena",
-            "city": "Saransk",
-            "lat": 54.181795,
-            "lng": 45.203851,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/%D0%A1%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_Mordovia_arena.jpg"
-        },
-        {
-            "id": 10,
-            "name": "Rostov Arena",
-            "city": "Rostov-on-Don",
-            "lat": 47.209581,
-            "lng": 39.738424,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Rostov-Arens_%28april_2018%29_01.jpg"
-        },
-        {
-            "id": 11,
-            "name": "Fisht Olympic Stadium",
-            "city": "Sochi",
-            "lat": 43.402011,
-            "lng": 39.955709,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Fisht_Stadium_in_January_2018.jpg"
-        },
-        {
-            "id": 12,
-            "name": "Central Stadium",
-            "city": "Yekaterinburg",
-            "lat": 56.832490,
-            "lng": 60.573585,
-            "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Estadio_Central_%28Ekaterinburg-arena%29.jpg"
-        }
-    ],
-    "teams": [{
-            "id": 1,
-            "name": "Russia",
-            "fifaCode": "RUS",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/900px-Flag_of_Russia.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 2,
-            "name": "Saudi Arabia",
-            "fifaCode": "KSA",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/750px-Flag_of_Saudi_Arabia.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 3,
-            "name": "Egypt",
-            "fifaCode": "EGY",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/900px-Flag_of_Egypt.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 4,
-            "name": "Uruguay",
-            "fifaCode": "URU",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/900px-Flag_of_Uruguay.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 5,
-            "name": "Portugal",
-            "fifaCode": "POR",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/600px-Flag_of_Portugal.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 6,
-            "name": "Spain",
-            "fifaCode": "ESP",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/750px-Flag_of_Spain.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 7,
-            "name": "Morocco",
-            "fifaCode": "MAR",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/900px-Flag_of_Morocco.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 8,
-            "name": "Iran",
-            "fifaCode": "IRN",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/630px-Flag_of_Iran.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 9,
-            "name": "France",
-            "fifaCode": "FRA",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/900px-Flag_of_France.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 10,
-            "name": "Australia",
-            "fifaCode": "AUS",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/1280px-Flag_of_Australia_%28converted%29.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 11,
-            "name": "Peru",
-            "fifaCode": "PER",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/900px-Flag_of_Peru_%28state%29.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 12,
-            "name": "Denmark",
-            "fifaCode": "DEN",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/740px-Flag_of_Denmark.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 13,
-            "name": "Argentina",
-            "fifaCode": "ARG",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/800px-Flag_of_Argentina.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 14,
-            "name": "Iceland",
-            "fifaCode": "ISL",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/800px-Flag_of_Iceland.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 15,
-            "name": "Croatia",
-            "fifaCode": "CRO",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/800px-Flag_of_Croatia.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 16,
-            "name": "Nigeria",
-            "fifaCode": "NGA",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/800px-Flag_of_Nigeria.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 17,
-            "name": "Brazil",
-            "fifaCode": "BRA",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/720px-Flag_of_Brazil.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 18,
-            "name": "Switzerland",
-            "fifaCode": "SUI",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/320px-Flag_of_Switzerland_%28Pantone%29.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 19,
-            "name": "Costa Rica",
-            "fifaCode": "CRC",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/833px-Flag_of_Costa_Rica_%28state%29.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 20,
-            "name": "Serbia",
-            "fifaCode": "SRB",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/1350px-Flag_of_Serbia.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 21,
-            "name": "Germany",
-            "fifaCode": "GER",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/800px-Flag_of_Germany.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 22,
-            "name": "Mexico",
-            "fifaCode": "MEX",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/800px-Flag_of_Mexico.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 23,
-            "name": "Sweden",
-            "fifaCode": "SWE",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/1600px-Flag_of_Sweden.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 24,
-            "name": "South Korea",
-            "fifaCode": "KOR",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/900px-Flag_of_South_Korea.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 25,
-            "name": "Belgium",
-            "fifaCode": "BEL",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/450px-Flag_of_Belgium.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 26,
-            "name": "Panama",
-            "fifaCode": "PAN",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/450px-Flag_of_Panama.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 27,
-            "name": "Tunisia",
-            "fifaCode": "TUN",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/1200px-Flag_of_Tunisia.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 28,
-            "name": "England",
-            "fifaCode": "ENG",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/800px-Flag_of_England.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 29,
-            "name": "Poland",
-            "fifaCode": "POL",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1280px-Flag_of_Poland.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 30,
-            "name": "Senegal",
-            "fifaCode": "SEN",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 31,
-            "name": "Colombia",
-            "fifaCode": "COL",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/450px-Flag_of_Colombia.png",
-            "jogos": 0,
-            "saldoGols": 0
-        },
-        {
-            "id": 32,
-            "name": "Japan",
-            "fifaCode": "JPN",
-            "pontos": 0,
-            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/900px-Flag_of_Japan.png",
-            "jogos": 0,
-            "saldoGols": 0
-        }
-    ],
-    "groups": {
-        "a": {
-            "name": "Group A",
-            "winner": null,
-            "runnerup": null,
-            "teams": [1, 2, 3, 4],
-            "matches": [{
-                    "name": 1,
-                    "type": "group",
-                    "home_team": 1,
-                    "away_team": 2,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-14T18:00:00+03:00",
-                    "stadium": 1,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 2,
-                    "type": "group",
-                    "home_team": 3,
-                    "away_team": 4,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-15T17:00:00+05:00",
-                    "stadium": 12,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 17,
-                    "type": "group",
-                    "home_team": 1,
-                    "away_team": 3,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-19T21:00:00+03:00",
-                    "stadium": 3,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 18,
-                    "type": "group",
-                    "home_team": 4,
-                    "away_team": 2,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-20T18:00:00+03:00",
-                    "stadium": 10,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 33,
-                    "type": "group",
-                    "home_team": 4,
-                    "away_team": 1,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-25T18:00:00+04:00",
-                    "stadium": 7,
-                    "finished": false,
-                    "matchday": 3
-                },
-                {
-                    "name": 34,
-                    "type": "group",
-                    "home_team": 2,
-                    "away_team": 3,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-25T17:00:00+03:00",
-                    "stadium": 8,
-                    "finished": false,
-                    "matchday": 3
-                }
-            ]
-        },
-        "b": {
-            "name": "Group B",
-            "winner": null,
-            "runnerup": null,
-            "teams": [5, 6, 7, 8],
-            "matches": [{
-                    "name": 3,
-                    "type": "group",
-                    "home_team": 7,
-                    "away_team": 8,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-15T18:00:00+03:00",
-                    "stadium": 3,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 4,
-                    "type": "group",
-                    "home_team": 5,
-                    "away_team": 6,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-15T21:00:00+03:00",
-                    "stadium": 11,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 19,
-                    "type": "group",
-                    "home_team": 5,
-                    "away_team": 7,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-20T15:00:00+03:00",
-                    "stadium": 1,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 20,
-                    "type": "group",
-                    "home_team": 8,
-                    "away_team": 6,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-20T21:00:00+03:00",
-                    "stadium": 5,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 35,
-                    "type": "group",
-                    "home_team": 8,
-                    "away_team": 5,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-25T21:00:00+03:00",
-                    "stadium": 9,
-                    "finished": false,
-                    "matchday": 3
-                },
-                {
-                    "name": 36,
-                    "type": "group",
-                    "home_team": 6,
-                    "away_team": 7,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-25T20:00:00+02:00",
-                    "stadium": 4,
-                    "finished": false,
-                    "matchday": 3
-                }
-            ]
-        },
-        "c": {
-            "name": "Group C",
-            "winner": null,
-            "runnerup": null,
-            "teams": [9, 10, 11, 12],
-            "matches": [{
-                    "name": 5,
-                    "type": "group",
-                    "home_team": 9,
-                    "away_team": 10,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-16T13:00:00+03:00",
-                    "stadium": 5,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 6,
-                    "type": "group",
-                    "home_team": 11,
-                    "away_team": 12,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-16T19:00:00+03:00",
-                    "stadium": 9,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 21,
-                    "type": "group",
-                    "home_team": 12,
-                    "away_team": 10,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-21T16:00:00+04:00",
-                    "stadium": 7,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 22,
-                    "type": "group",
-                    "home_team": 9,
-                    "away_team": 11,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-21T20:00:00+05:00",
-                    "stadium": 12,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 37,
-                    "type": "group",
-                    "home_team": 12,
-                    "away_team": 9,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-26T17:00:00+03:00",
-                    "stadium": 1,
-                    "finished": false,
-                    "matchday": 3
-                },
-                {
-                    "name": 38,
-                    "type": "group",
-                    "home_team": 10,
-                    "away_team": 11,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-26T17:00:00+02:00",
-                    "stadium": 11,
-                    "finished": false,
-                    "matchday": 3
-                }
-            ]
-        },
-        "d": {
-            "name": "Group D",
-            "winner": null,
-            "runnerup": null,
-            "teams": [13, 14, 15, 16],
-            "matches": [{
-                    "name": 7,
-                    "type": "group",
-                    "home_team": 13,
-                    "away_team": 14,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-16T16:00:00+03:00",
-                    "stadium": 2,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 8,
-                    "type": "group",
-                    "home_team": 15,
-                    "away_team": 16,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-16T21:00:00+02:00",
-                    "stadium": 4,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 23,
-                    "type": "group",
-                    "home_team": 13,
-                    "away_team": 15,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-21T21:00:00+03:00",
-                    "stadium": 6,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 24,
-                    "type": "group",
-                    "home_team": 16,
-                    "away_team": 14,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-22T18:00:00+03:00",
-                    "stadium": 8,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 39,
-                    "type": "group",
-                    "home_team": 16,
-                    "away_team": 13,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-26T21:00:00+03:00",
-                    "stadium": 3,
-                    "finished": false,
-                    "matchday": 3
-                },
-                {
-                    "name": 40,
-                    "type": "group",
-                    "home_team": 14,
-                    "away_team": 15,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-26T21:00:00+03:00",
-                    "stadium": 10,
-                    "finished": false,
-                    "matchday": 3
-                }
-            ]
-        },
-        "e": {
-            "name": "Group E",
-            "winner": null,
-            "runnerup": null,
-            "teams": [17, 18, 19, 20],
-            "matches": [{
-                    "name": 9,
-                    "type": "group",
-                    "home_team": 19,
-                    "away_team": 20,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-17T16:00:00+04:00",
-                    "stadium": 7,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 10,
-                    "type": "group",
-                    "home_team": 17,
-                    "away_team": 18,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-17T21:00:00+03:00",
-                    "stadium": 10,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 25,
-                    "type": "group",
-                    "home_team": 17,
-                    "away_team": 19,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-22T15:00:00+03:00",
-                    "stadium": 3,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 26,
-                    "type": "group",
-                    "home_team": 20,
-                    "away_team": 18,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-22T20:00:00+02:00",
-                    "stadium": 4,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 41,
-                    "type": "group",
-                    "home_team": 20,
-                    "away_team": 17,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-27T21:00:00+03:00",
-                    "stadium": 2,
-                    "finished": false,
-                    "matchday": 3
-                },
-                {
-                    "name": 42,
-                    "type": "group",
-                    "home_team": 18,
-                    "away_team": 19,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-27T21:00:00+03:00",
-                    "stadium": 6,
-                    "finished": false,
-                    "matchday": 3
-                }
-            ]
-        },
-        "f": {
-            "name": "Group F",
-            "winner": null,
-            "runnerup": null,
-            "teams": [21, 22, 23, 24],
-            "matches": [{
-                    "name": 11,
-                    "type": "group",
-                    "home_team": 21,
-                    "away_team": 22,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-17T18:00:00+03:00",
-                    "stadium": 1,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 12,
-                    "type": "group",
-                    "home_team": 23,
-                    "away_team": 24,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-18T15:00:00+03:00",
-                    "stadium": 6,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 27,
-                    "type": "group",
-                    "home_team": 24,
-                    "away_team": 22,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-23T18:00:00+03:00",
-                    "stadium": 10,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 28,
-                    "type": "group",
-                    "home_team": 21,
-                    "away_team": 23,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-23T21:00:00+03:00",
-                    "stadium": 11,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 43,
-                    "type": "group",
-                    "home_team": 24,
-                    "away_team": 21,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-27T17:00:00+03:00",
-                    "stadium": 5,
-                    "finished": false,
-                    "matchday": 3
-                },
-                {
-                    "name": 44,
-                    "type": "group",
-                    "home_team": 22,
-                    "away_team": 23,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-27T19:00:00+05:00",
-                    "stadium": 12,
-                    "finished": false,
-                    "matchday": 3
-                }
-            ]
-        },
-        "g": {
-            "name": "Group G",
-            "winner": null,
-            "runnerup": null,
-            "teams": [25, 26, 27, 28],
-            "matches": [{
-                    "name": 13,
-                    "type": "group",
-                    "home_team": 25,
-                    "away_team": 26,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-18T18:00:00+03:00",
-                    "stadium": 11,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 14,
-                    "type": "group",
-                    "home_team": 27,
-                    "away_team": 28,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-18T21:00:00+03:00",
-                    "stadium": 8,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 29,
-                    "type": "group",
-                    "home_team": 25,
-                    "away_team": 27,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-23T15:00:00+03:00",
-                    "stadium": 2,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 30,
-                    "type": "group",
-                    "home_team": 28,
-                    "away_team": 26,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-24T15:00:00+03:00",
-                    "stadium": 6,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 45,
-                    "type": "group",
-                    "home_team": 28,
-                    "away_team": 25,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-28T20:00:00+02:00",
-                    "stadium": 4,
-                    "finished": false,
-                    "matchday": 3
-                },
-                {
-                    "name": 46,
-                    "type": "group",
-                    "home_team": 26,
-                    "away_team": 27,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-28T21:00:00+03:00",
-                    "stadium": 9,
-                    "finished": false,
-                    "matchday": 3
-                }
-            ]
-        },
-        "h": {
-            "name": "Group H",
-            "winner": null,
-            "runnerup": null,
-            "teams": [29, 30, 31, 32],
-            "matches": [{
-                    "name": 15,
-                    "type": "group",
-                    "home_team": 31,
-                    "away_team": 32,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-19T15:00:00+03:00",
-                    "stadium": 9,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 16,
-                    "type": "group",
-                    "home_team": 29,
-                    "away_team": 30,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-19T18:00:00+03:00",
-                    "stadium": 2,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 31,
-                    "type": "group",
-                    "home_team": 29,
-                    "away_team": 31,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-24T20:00:00+05:00",
-                    "stadium": 5,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 32,
-                    "type": "group",
-                    "home_team": 32,
-                    "away_team": 30,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-24T21:00:00+03:00",
-                    "stadium": 12,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 47,
-                    "type": "group",
-                    "home_team": 32,
-                    "away_team": 29,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-28T17:00:00+03:00",
-                    "stadium": 8,
-                    "finished": false,
-                    "matchday": 3
-                },
-                {
-                    "name": 48,
-                    "type": "group",
-                    "home_team": 30,
-                    "away_team": 31,
-                    "home_result": null,
-                    "away_result": null,
-                    "date": "2018-06-28T18:00:00+04:00",
-                    "stadium": 7,
-                    "finished": false,
-                    "matchday": 3
-                }
-            ]
-        }
-    },
-    "knockout": {
-        "round_16": {
-            "name": "Round of 16",
-            "matches": [{
-                    "name": 49,
-                    "type": "qualified",
-                    "home_team": "winner_c",
-                    "away_team": "runner_d",
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-06-30T21:00:00+03:00",
-                    "stadium": 5,
-                    "finished": false,
-                    "matchday": 4
-                },
-                {
-                    "name": 50,
-                    "type": "qualified",
-                    "home_team": "winner_a",
-                    "away_team": "runner_b",
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-06-30T17:00:00+03:00",
-                    "stadium": 11,
-                    "finished": false,
-                    "matchday": 4
-                },
-                {
-                    "name": 51,
-                    "type": "qualified",
-                    "home_team": "winner_b",
-                    "away_team": "runner_a",
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-07-01T17:00:00+03:00",
-                    "stadium": 1,
-                    "finished": false,
-                    "matchday": 4
-                },
-                {
-                    "name": 52,
-                    "type": "qualified",
-                    "home_team": "winner_e",
-                    "away_team": "runner_f",
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-07-02T18:00:00+04:00",
-                    "stadium": 7,
-                    "finished": false,
-                    "matchday": 4
-                },
-                {
-                    "name": 53,
-                    "type": "qualified",
-                    "home_team": "winner_d",
-                    "away_team": "runner_c",
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-07-01T21:00:00+03:00",
-                    "stadium": 6,
-                    "finished": false,
-                    "matchday": 4
-                },
-                {
-                    "name": 54,
-                    "type": "qualified",
-                    "home_team": "winner_g",
-                    "away_team": "runner_h",
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-07-02T21:00:00+03:00",
-                    "stadium": 10,
-                    "finished": false,
-                    "matchday": 4
-                },
-                {
-                    "name": 55,
-                    "type": "qualified",
-                    "home_team": "winner_f",
-                    "away_team": "runner_e",
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-07-03T17:00:00+03:00",
-                    "stadium": 3,
-                    "finished": false,
-                    "matchday": 4
-                },
-                {
-                    "name": 56,
-                    "type": "qualified",
-                    "home_team": "winner_h",
-                    "away_team": "runner_g",
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-07-03T21:00:00+03:00",
-                    "stadium": 2,
-                    "finished": false,
-                    "matchday": 4
-                }
-            ]
-        },
-        "round_8": {
-            "name": "Quarter-finals",
-            "matches": [{
-                    "name": 57,
-                    "type": "winner",
-                    "home_team": 49,
-                    "away_team": 50,
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-07-06T17:00:00+03:00",
-                    "stadium": 6,
-                    "finished": false,
-                    "matchday": 5
-                },
-                {
-                    "name": 58,
-                    "type": "winner",
-                    "home_team": 53,
-                    "away_team": 54,
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-07-06T21:00:00+03:00",
-                    "stadium": 5,
-                    "finished": false,
-                    "matchday": 5
-                },
-                {
-                    "name": 59,
-                    "type": "winner",
-                    "home_team": 55,
-                    "away_team": 56,
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-07-07T18:00:00+04:00",
-                    "stadium": 7,
-                    "finished": false,
-                    "matchday": 5
-                },
-                {
-                    "name": 60,
-                    "type": "winner",
-                    "home_team": 51,
-                    "away_team": 52,
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-07-07T21:00:00+03:00",
-                    "stadium": 11,
-                    "finished": false,
-                    "matchday": 5
-                }
-            ]
-        },
-        "round_4": {
-            "name": "Semi-finals",
-            "matches": [{
-                    "name": 61,
-                    "type": "winner",
-                    "home_team": 57,
-                    "away_team": 58,
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-07-10T21:00:00+03:00",
-                    "stadium": 3,
-                    "finished": false,
-                    "matchday": 6
-                },
-                {
-                    "name": 62,
-                    "type": "winner",
-                    "home_team": 59,
-                    "away_team": 60,
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-07-11T21:00:00+03:00",
-                    "stadium": 1,
-                    "finished": false,
-                    "matchday": 6
-                }
-            ]
-        },
-        "round_2_loser": {
-            "name": "Third place play-off",
-            "matches": [{
-                "name": 63,
-                "type": "loser",
-                "home_team": 61,
-                "away_team": 62,
-                "home_result": null,
-                "away_result": null,
-                "home_penalty": null,
-                "away_penalty": null,
-                "winner": null,
-                "date": "2018-07-14T17:00:00+03:00",
-                "stadium": 3,
-                "finished": false,
-                "matchday": 7
-            }]
-        },
-        "round_2": {
-            "name": "Final",
-            "matches": [{
-                "name": 64,
-                "type": "winner",
-                "home_team": 61,
-                "away_team": 62,
-                "home_result": null,
-                "away_result": null,
-                "home_penalty": null,
-                "away_penalty": null,
-                "winner": null,
-                "date": "2018-07-15T18:00:00+03:00",
-                "stadium": 1,
-                "finished": false,
-                "matchday": 7
-            }]
-        }
-    }
+    ]
+
 }

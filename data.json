@@ -209,7 +209,7 @@
             "id": 13,
             "name": "Argentina",
             "fifaCode": "ARG",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/800px-Flag_of_Argentina.png",
             "jogos": 1,
             "saldoGols": 0
@@ -218,7 +218,7 @@
             "id": 14,
             "name": "Iceland",
             "fifaCode": "ISL",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/800px-Flag_of_Iceland.png",
             "jogos": 1,
             "saldoGols": 0

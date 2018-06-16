@@ -211,7 +211,7 @@
             "fifaCode": "ARG",
             "pontos": 0,
             "flag": "../assets/imgs/teams/800px-Flag_of_Argentina.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
@@ -220,7 +220,7 @@
             "fifaCode": "ISL",
             "pontos": 0,
             "flag": "../assets/imgs/teams/800px-Flag_of_Iceland.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
@@ -634,8 +634,8 @@
                     "type": "group",
                     "home_team": 13,
                     "away_team": 14,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-16T16:00:00+03:00",
                     "stadium": 2,
                     "finished": false,

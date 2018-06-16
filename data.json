@@ -193,7 +193,7 @@
             "fifaCode": "PER",
             "pontos": 0,
             "flag": "../assets/imgs/teams/900px-Flag_of_Peru.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
@@ -202,7 +202,7 @@
             "fifaCode": "DEN",
             "pontos": 0,
             "flag": "../assets/imgs/teams/740px-Flag_of_Denmark.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
@@ -567,8 +567,8 @@
                     "type": "group",
                     "home_team": 11,
                     "away_team": 12,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-16T19:00:00+03:00",
                     "stadium": 9,
                     "finished": false,

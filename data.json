@@ -173,19 +173,19 @@
             "id": 9,
             "name": "France",
             "fifaCode": "FRA",
-            "pontos": 1,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/900px-Flag_of_France.png",
             "jogos": 1,
-            "saldoGols": 0
+            "saldoGols": 1
         },
         {
             "id": 10,
             "name": "Australia",
             "fifaCode": "AUS",
-            "pontos": 1,
+            "pontos": 0,
             "flag": "../assets/imgs/teams/1280px-Flag_of_Australia.png",
             "jogos": 1,
-            "saldoGols": 0
+            "saldoGols": -1
         },
         {
             "id": 11,
@@ -555,8 +555,8 @@
                     "type": "group",
                     "home_team": 9,
                     "away_team": 10,
-                    "home_result": 0,
-                    "away_result": 0,
+                    "home_result": 2,
+                    "away_result": 1,
                     "date": "2018-06-16T13:00:00+03:00",
                     "stadium": 5,
                     "finished": false,

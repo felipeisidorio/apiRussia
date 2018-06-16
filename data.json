@@ -549,7 +549,7 @@
             "name": "Group C",
             "winner": null,
             "runnerup": null,
-            "teams": [9 ,10, 11, 12],
+            "teams": [9 ,12, 11, 10],
             "matches": [{
                     "name": 5,
                     "type": "group",

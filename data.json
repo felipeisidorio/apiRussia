@@ -786,7 +786,7 @@
             "name": "Group F",
             "winner": null,
             "runnerup": null,
-            "teams": [22, 21,  23, 24],
+            "teams": [22,  23, 24, 21],
             "matches": [{
                     "name": 11,
                     "type": "group",

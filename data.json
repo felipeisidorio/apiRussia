@@ -245,18 +245,18 @@
             "id": 17,
             "name": "Brazil",
             "fifaCode": "BRA",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/720px-Flag_of_Brazil.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
             "id": 18,
             "name": "Switzerland",
             "fifaCode": "SUI",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/320px-Flag_of_Switzerland.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
@@ -283,17 +283,17 @@
             "fifaCode": "GER",
             "pontos": 0,
             "flag": "../assets/imgs/teams/800px-Flag_of_Germany.png",
-            "jogos": 0,
-            "saldoGols": 0
+            "jogos": 1,
+            "saldoGols": -1
         },
         {
             "id": 22,
             "name": "Mexico",
             "fifaCode": "MEX",
-            "pontos": 0,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/800px-Flag_of_Mexico.png",
-            "jogos": 0,
-            "saldoGols": 0
+            "jogos": 1,
+            "saldoGols": 1
         },
         {
             "id": 23,
@@ -725,8 +725,8 @@
                     "type": "group",
                     "home_team": 17,
                     "away_team": 18,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-17T21:00:00+03:00",
                     "stadium": 10,
                     "finished": false,
@@ -786,14 +786,14 @@
             "name": "Group F",
             "winner": null,
             "runnerup": null,
-            "teams": [21, 22, 23, 24],
+            "teams": [22, 21,  23, 24],
             "matches": [{
                     "name": 11,
                     "type": "group",
                     "home_team": 21,
                     "away_team": 22,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 1,
                     "date": "2018-06-17T18:00:00+03:00",
                     "stadium": 1,
                     "finished": false,

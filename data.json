@@ -317,18 +317,18 @@
             "id": 25,
             "name": "Belgium",
             "fifaCode": "BEL",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/450px-Flag_of_Belgium.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
             "id": 26,
             "name": "Panama",
             "fifaCode": "PAN",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/450px-Flag_of_Panama.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
@@ -871,8 +871,8 @@
                     "type": "group",
                     "home_team": 25,
                     "away_team": 26,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-18T18:00:00+03:00",
                     "stadium": 11,
                     "finished": false,

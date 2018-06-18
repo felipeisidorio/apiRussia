@@ -299,19 +299,19 @@
             "id": 23,
             "name": "Sweden",
             "fifaCode": "SWE",
-            "pontos": 1,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/1600px-Flag_of_Sweden.png",
             "jogos": 1,
-            "saldoGols": 0
+            "saldoGols": 1
         },
         {
             "id": 24,
             "name": "South Korea",
             "fifaCode": "KOR",
-            "pontos": 1,
+            "pontos": 0,
             "flag": "../assets/imgs/teams/900px-Flag_of_South_Korea.png",
             "jogos": 1,
-            "saldoGols": 0
+            "saldoGols": -1
         },
         {
             "id": 25,
@@ -804,7 +804,7 @@
                     "type": "group",
                     "home_team": 23,
                     "away_team": 24,
-                    "home_result": 0,
+                    "home_result": 1,
                     "away_result": 0,
                     "date": "2018-06-18T15:00:00+03:00",
                     "stadium": 6,

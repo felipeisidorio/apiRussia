@@ -335,19 +335,19 @@
             "id": 27,
             "name": "Tunisia",
             "fifaCode": "TUN",
-            "pontos": 1,
+            "pontos": 0,
             "flag": "../assets/imgs/teams/1200px-Flag_of_Tunisia.png",
             "jogos": 1,
-            "saldoGols": 0
+            "saldoGols": -1
         },
         {
             "id": 28,
             "name": "England",
             "fifaCode": "ENG",
-            "pontos": 1,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/800px-Flag_of_England.png",
             "jogos": 1,
-            "saldoGols": 0
+            "saldoGols": 1
         },
         {
             "id": 29,
@@ -884,7 +884,7 @@
                     "home_team": 27,
                     "away_team": 28,
                     "home_result": 1,
-                    "away_result": 1,
+                    "away_result": 2,
                     "date": "2018-06-18T21:00:00+03:00",
                     "stadium": 8,
                     "finished": false,

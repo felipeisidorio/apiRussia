@@ -299,18 +299,18 @@
             "id": 23,
             "name": "Sweden",
             "fifaCode": "SWE",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/1600px-Flag_of_Sweden.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
             "id": 24,
             "name": "South Korea",
             "fifaCode": "KOR",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/900px-Flag_of_South_Korea.png",
-            "jogos": 0,
+            "jogos": 1,
             "saldoGols": 0
         },
         {
@@ -804,8 +804,8 @@
                     "type": "group",
                     "home_team": 23,
                     "away_team": 24,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-18T15:00:00+03:00",
                     "stadium": 6,
                     "finished": false,
@@ -5421,7 +5421,7 @@
             "Weight": 72
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 1,
             "Pos.": "GK",
             "Name": "Seunggyu KIM",
@@ -5433,7 +5433,7 @@
             "Weight": 80
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 2,
             "Pos.": "DF",
             "Name": "Yong LEE",
@@ -5445,7 +5445,7 @@
             "Weight": 74
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 3,
             "Pos.": "DF",
             "Name": "Seunghyun JUNG",
@@ -5457,7 +5457,7 @@
             "Weight": 74
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 4,
             "Pos.": "DF",
             "Name": "Bansuk OH",
@@ -5469,7 +5469,7 @@
             "Weight": 79
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 5,
             "Pos.": "DF",
             "Name": "Youngsun YUN",
@@ -5481,7 +5481,7 @@
             "Weight": 78
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 6,
             "Pos.": "DF",
             "Name": "Jooho PARK",
@@ -5493,7 +5493,7 @@
             "Weight": 71
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 7,
             "Pos.": "FW",
             "Name": "Heungmin SON",
@@ -5505,7 +5505,7 @@
             "Weight": 76
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 8,
             "Pos.": "MF",
             "Name": "Sejong JU",
@@ -5517,7 +5517,7 @@
             "Weight": 70
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 9,
             "Pos.": "FW",
             "Name": "Shinwook KIM",
@@ -5529,7 +5529,7 @@
             "Weight": 97
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 10,
             "Pos.": "MF",
             "Name": "Seungwoo LEE",
@@ -5541,7 +5541,7 @@
             "Weight": 63
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 11,
             "Pos.": "FW",
             "Name": "Heechan HWANG",
@@ -5553,7 +5553,7 @@
             "Weight": 77
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 12,
             "Pos.": "DF",
             "Name": "Minwoo KIM",
@@ -5565,7 +5565,7 @@
             "Weight": 69
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 13,
             "Pos.": "MF",
             "Name": "Jacheol KOO",
@@ -5577,7 +5577,7 @@
             "Weight": 73
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 14,
             "Pos.": "DF",
             "Name": "Chul HONG",
@@ -5589,7 +5589,7 @@
             "Weight": 67
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 15,
             "Pos.": "MF",
             "Name": "Wooyoung JUNG",
@@ -5601,7 +5601,7 @@
             "Weight": 78
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 16,
             "Pos.": "MF",
             "Name": "Sungyueng KI",
@@ -5613,7 +5613,7 @@
             "Weight": 75
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 17,
             "Pos.": "MF",
             "Name": "Jaesung LEE",
@@ -5625,7 +5625,7 @@
             "Weight": 70
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 18,
             "Pos.": "MF",
             "Name": "Seonmin MOON",
@@ -5637,7 +5637,7 @@
             "Weight": 68
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 19,
             "Pos.": "DF",
             "Name": "Younggwon KIM",
@@ -5649,7 +5649,7 @@
             "Weight": 74
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 20,
             "Pos.": "DF",
             "Name": "Hyunsoo JANG",
@@ -5661,7 +5661,7 @@
             "Weight": 77
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 21,
             "Pos.": "GK",
             "Name": "Jinhyeon KIM",
@@ -5673,7 +5673,7 @@
             "Weight": 82
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 22,
             "Pos.": "DF",
             "Name": "Yohan GO",
@@ -5685,7 +5685,7 @@
             "Weight": 65
         },
         {
-            "Team": "Korea Republic",
+            "Team": "South Korea",
             "Number": 23,
             "Pos.": "GK",
             "Name": "Hyeonwoo JO",

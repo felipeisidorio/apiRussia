@@ -338,16 +338,16 @@
             "pontos": 0,
             "flag": "../assets/imgs/teams/1200px-Flag_of_Tunisia.png",
             "jogos": 1,
-            "saldoGols": 0
+            "saldoGols": -1
         },
         {
             "id": 28,
             "name": "England",
             "fifaCode": "ENG",
-            "pontos": 0,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/800px-Flag_of_England.png",
             "jogos": 1,
-            "saldoGols": 0
+            "saldoGols": 1
         },
         {
             "id": 29,
@@ -865,7 +865,7 @@
             "name": "Group G",
             "winner": null,
             "runnerup": null,
-            "teams": [25, 26, 27, 28],
+            "teams": [25,28, 27, 26],
             "matches": [{
                     "name": 13,
                     "type": "group",

@@ -335,19 +335,19 @@
             "id": 27,
             "name": "Tunisia",
             "fifaCode": "TUN",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/1200px-Flag_of_Tunisia.png",
             "jogos": 1,
-            "saldoGols": -1
+            "saldoGols": 0
         },
         {
             "id": 28,
             "name": "England",
             "fifaCode": "ENG",
-            "pontos": 3,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/800px-Flag_of_England.png",
             "jogos": 1,
-            "saldoGols": 1
+            "saldoGols": 0
         },
         {
             "id": 29,

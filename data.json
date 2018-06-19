@@ -374,7 +374,7 @@
             "pontos": 0,
             "flag": "../assets/imgs/teams/450px-Flag_of_Colombia.png",
             "jogos": 1,
-            "saldoGols": 1
+            "saldoGols": -1
         },
         {
             "id": 32,

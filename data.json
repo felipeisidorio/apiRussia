@@ -392,9 +392,7 @@
             "winner": null,
             "runnerup": null,
             "teams": [1,  4, 3,  2],
-            "matches": [
-
-                {
+            "matches": [{
                     "name": 17,
                     "type": "group",
                     "home_team": 1,
@@ -473,8 +471,7 @@
             "winner": null,
             "runnerup": null,
             "teams": [ 8, 6 , 5 ,7],
-            "matches": [
-                {
+            "matches": [{
                     "name": 19,
                     "type": "group",
                     "home_team": 5,
@@ -553,8 +550,7 @@
             "winner": null,
             "runnerup": null,
             "teams": [9 ,12, 11, 10],
-            "matches": [
-                {
+            "matches": [{
                     "name": 21,
                     "type": "group",
                     "home_team": 12,
@@ -633,8 +629,7 @@
             "winner": null,
             "runnerup": null,
             "teams": [15, 13, 14, 16],
-            "matches": [
-                {
+            "matches": [{
                     "name": 23,
                     "type": "group",
                     "home_team": 13,
@@ -713,8 +708,7 @@
             "winner": null,
             "runnerup": null,
             "teams": [20, 17, 18, 19 ],
-            "matches": [
-                {
+            "matches": [{
                     "name": 25,
                     "type": "group",
                     "home_team": 17,
@@ -951,9 +945,7 @@
             "winner": null,
             "runnerup": null,
             "teams": [30,32 , 31, 29 ],
-            "matches": [
-               
-                {
+            "matches": [{
                     "name": 31,
                     "type": "group",
                     "home_team": 29,

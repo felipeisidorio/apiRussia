@@ -356,7 +356,7 @@
             "pontos": 0,
             "flag": "../assets/imgs/teams/1280px-Flag_of_Poland.png",
             "jogos": 1,
-            "saldoGols": -2
+            "saldoGols": -1
         },
         {
             "id": 30,
@@ -365,7 +365,7 @@
             "pontos": 3,
             "flag": "../assets/imgs/teams/800px-Flag_of_Senegal.png",
             "jogos": 0,
-            "saldoGols": 2
+            "saldoGols": 1
         },
         {
             "id": 31,
@@ -392,30 +392,8 @@
             "winner": null,
             "runnerup": null,
             "teams": [1,  4, 3,  2],
-            "matches": [{
-                    "name": 1,
-                    "type": "group",
-                    "home_team": 1,
-                    "away_team": 2,
-                    "home_result": 5,
-                    "away_result": 0,
-                    "date": "2018-06-14T18:00:00+03:00",
-                    "stadium": 1,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 2,
-                    "type": "group",
-                    "home_team": 3,
-                    "away_team": 4,
-                    "home_result": 0,
-                    "away_result": 1,
-                    "date": "2018-06-15T17:00:00+05:00",
-                    "stadium": 12,
-                    "finished": false,
-                    "matchday": 1
-                },
+            "matches": [
+
                 {
                     "name": 17,
                     "type": "group",
@@ -463,6 +441,30 @@
                     "stadium": 8,
                     "finished": false,
                     "matchday": 3
+                },
+                {
+                    "name": 1,
+                    "type": "group",
+                    "home_team": 1,
+                    "away_team": 2,
+                    "home_result": 5,
+                    "away_result": 0,
+                    "date": "2018-06-14T18:00:00+03:00",
+                    "stadium": 1,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 2,
+                    "type": "group",
+                    "home_team": 3,
+                    "away_team": 4,
+                    "home_result": 0,
+                    "away_result": 1,
+                    "date": "2018-06-15T17:00:00+05:00",
+                    "stadium": 12,
+                    "finished": false,
+                    "matchday": 1
                 }
             ]
         },
@@ -471,30 +473,7 @@
             "winner": null,
             "runnerup": null,
             "teams": [ 8, 6 , 5 ,7],
-            "matches": [{
-                    "name": 3,
-                    "type": "group",
-                    "home_team": 7,
-                    "away_team": 8,
-                    "home_result": 0,
-                    "away_result": 1,
-                    "date": "2018-06-15T18:00:00+03:00",
-                    "stadium": 3,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 4,
-                    "type": "group",
-                    "home_team": 5,
-                    "away_team": 6,
-                    "home_result": 3,
-                    "away_result": 3,
-                    "date": "2018-06-15T21:00:00+03:00",
-                    "stadium": 11,
-                    "finished": false,
-                    "matchday": 1
-                },
+            "matches": [
                 {
                     "name": 19,
                     "type": "group",
@@ -542,7 +521,31 @@
                     "stadium": 4,
                     "finished": false,
                     "matchday": 3
-                }
+                },
+                {
+                    "name": 3,
+                    "type": "group",
+                    "home_team": 7,
+                    "away_team": 8,
+                    "home_result": 0,
+                    "away_result": 1,
+                    "date": "2018-06-15T18:00:00+03:00",
+                    "stadium": 3,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 4,
+                    "type": "group",
+                    "home_team": 5,
+                    "away_team": 6,
+                    "home_result": 3,
+                    "away_result": 3,
+                    "date": "2018-06-15T21:00:00+03:00",
+                    "stadium": 11,
+                    "finished": false,
+                    "matchday": 1
+                },
             ]
         },
         "c": {
@@ -550,30 +553,7 @@
             "winner": null,
             "runnerup": null,
             "teams": [9 ,12, 11, 10],
-            "matches": [{
-                    "name": 5,
-                    "type": "group",
-                    "home_team": 9,
-                    "away_team": 10,
-                    "home_result": 2,
-                    "away_result": 1,
-                    "date": "2018-06-16T13:00:00+03:00",
-                    "stadium": 5,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 6,
-                    "type": "group",
-                    "home_team": 11,
-                    "away_team": 12,
-                    "home_result": 0,
-                    "away_result": 1,
-                    "date": "2018-06-16T19:00:00+03:00",
-                    "stadium": 9,
-                    "finished": false,
-                    "matchday": 1
-                },
+            "matches": [
                 {
                     "name": 21,
                     "type": "group",
@@ -621,6 +601,30 @@
                     "stadium": 11,
                     "finished": false,
                     "matchday": 3
+                },
+                {
+                    "name": 5,
+                    "type": "group",
+                    "home_team": 9,
+                    "away_team": 10,
+                    "home_result": 2,
+                    "away_result": 1,
+                    "date": "2018-06-16T13:00:00+03:00",
+                    "stadium": 5,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 6,
+                    "type": "group",
+                    "home_team": 11,
+                    "away_team": 12,
+                    "home_result": 0,
+                    "away_result": 1,
+                    "date": "2018-06-16T19:00:00+03:00",
+                    "stadium": 9,
+                    "finished": false,
+                    "matchday": 1
                 }
             ]
         },
@@ -629,30 +633,7 @@
             "winner": null,
             "runnerup": null,
             "teams": [15, 13, 14, 16],
-            "matches": [{
-                    "name": 7,
-                    "type": "group",
-                    "home_team": 13,
-                    "away_team": 14,
-                    "home_result": 1,
-                    "away_result": 1,
-                    "date": "2018-06-16T16:00:00+03:00",
-                    "stadium": 2,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 8,
-                    "type": "group",
-                    "home_team": 15,
-                    "away_team": 16,
-                    "home_result": 2,
-                    "away_result": 0,
-                    "date": "2018-06-16T21:00:00+02:00",
-                    "stadium": 4,
-                    "finished": false,
-                    "matchday": 1
-                },
+            "matches": [
                 {
                     "name": 23,
                     "type": "group",
@@ -700,6 +681,30 @@
                     "stadium": 10,
                     "finished": false,
                     "matchday": 3
+                },
+                {
+                    "name": 7,
+                    "type": "group",
+                    "home_team": 13,
+                    "away_team": 14,
+                    "home_result": 1,
+                    "away_result": 1,
+                    "date": "2018-06-16T16:00:00+03:00",
+                    "stadium": 2,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 8,
+                    "type": "group",
+                    "home_team": 15,
+                    "away_team": 16,
+                    "home_result": 2,
+                    "away_result": 0,
+                    "date": "2018-06-16T21:00:00+02:00",
+                    "stadium": 4,
+                    "finished": false,
+                    "matchday": 1
                 }
             ]
         },
@@ -708,30 +713,7 @@
             "winner": null,
             "runnerup": null,
             "teams": [20, 17, 18, 19 ],
-            "matches": [{
-                    "name": 9,
-                    "type": "group",
-                    "home_team": 19,
-                    "away_team": 20,
-                    "home_result": 0,
-                    "away_result": 1,
-                    "date": "2018-06-17T16:00:00+04:00",
-                    "stadium": 7,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 10,
-                    "type": "group",
-                    "home_team": 17,
-                    "away_team": 18,
-                    "home_result": 1,
-                    "away_result": 1,
-                    "date": "2018-06-17T21:00:00+03:00",
-                    "stadium": 10,
-                    "finished": false,
-                    "matchday": 1
-                },
+            "matches": [
                 {
                     "name": 25,
                     "type": "group",
@@ -779,6 +761,30 @@
                     "stadium": 6,
                     "finished": false,
                     "matchday": 3
+                },
+                {
+                    "name": 9,
+                    "type": "group",
+                    "home_team": 19,
+                    "away_team": 20,
+                    "home_result": 0,
+                    "away_result": 1,
+                    "date": "2018-06-17T16:00:00+04:00",
+                    "stadium": 7,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 10,
+                    "type": "group",
+                    "home_team": 17,
+                    "away_team": 18,
+                    "home_result": 1,
+                    "away_result": 1,
+                    "date": "2018-06-17T21:00:00+03:00",
+                    "stadium": 10,
+                    "finished": false,
+                    "matchday": 1
                 }
             ]
         },
@@ -947,6 +953,30 @@
             "teams": [30,32 , 31, 29 ],
             "matches": [
                 {
+                    "name": 15,
+                    "type": "group",
+                    "home_team": 31,
+                    "away_team": 32,
+                    "home_result": 1,
+                    "away_result": 2,
+                    "date": "2018-06-19T15:00:00+03:00",
+                    "stadium": 9,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 16,
+                    "type": "group",
+                    "home_team": 29,
+                    "away_team": 30,
+                    "home_result": 0,
+                    "away_result": 2,
+                    "date": "2018-06-19T18:00:00+03:00",
+                    "stadium": 2,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
                     "name": 31,
                     "type": "group",
                     "home_team": 29,
@@ -993,31 +1023,8 @@
                     "stadium": 7,
                     "finished": false,
                     "matchday": 3
-                },
-                {
-                    "name": 15,
-                    "type": "group",
-                    "home_team": 31,
-                    "away_team": 32,
-                    "home_result": 1,
-                    "away_result": 2,
-                    "date": "2018-06-19T15:00:00+03:00",
-                    "stadium": 9,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 16,
-                    "type": "group",
-                    "home_team": 29,
-                    "away_team": 30,
-                    "home_result": 0,
-                    "away_result": 2,
-                    "date": "2018-06-19T18:00:00+03:00",
-                    "stadium": 2,
-                    "finished": false,
-                    "matchday": 1
                 }
+                
             ]
         }
     },

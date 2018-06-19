@@ -355,17 +355,17 @@
             "fifaCode": "POL",
             "pontos": 0,
             "flag": "../assets/imgs/teams/1280px-Flag_of_Poland.png",
-            "jogos": 0,
-            "saldoGols": 0
+            "jogos": 1,
+            "saldoGols": -2
         },
         {
             "id": 30,
             "name": "Senegal",
             "fifaCode": "SEN",
-            "pontos": 0,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/800px-Flag_of_Senegal.png",
             "jogos": 0,
-            "saldoGols": 0
+            "saldoGols": 2
         },
         {
             "id": 31,
@@ -944,7 +944,7 @@
             "name": "Group H",
             "winner": null,
             "runnerup": null,
-            "teams": [32 , 29, 30, 31 ],
+            "teams": [30,32 , 31, 29 ],
             "matches": [{
                     "name": 15,
                     "type": "group",
@@ -962,8 +962,8 @@
                     "type": "group",
                     "home_team": 29,
                     "away_team": 30,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 2,
                     "date": "2018-06-19T18:00:00+03:00",
                     "stadium": 2,
                     "finished": false,

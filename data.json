@@ -371,19 +371,19 @@
             "id": 31,
             "name": "Colombia",
             "fifaCode": "COL",
-            "pontos": 1,
+            "pontos": 0,
             "flag": "../assets/imgs/teams/450px-Flag_of_Colombia.png",
             "jogos": 1,
-            "saldoGols": 0
+            "saldoGols": 1
         },
         {
             "id": 32,
             "name": "Japan",
             "fifaCode": "JPN",
-            "pontos": 1,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/900px-Flag_of_Japan.png",
             "jogos": 1,
-            "saldoGols": 0
+            "saldoGols": 1
         }
     ],
     "groups": {
@@ -944,14 +944,14 @@
             "name": "Group H",
             "winner": null,
             "runnerup": null,
-            "teams": [32, 31 , 29, 30, ],
+            "teams": [32 , 29, 30, 31 ],
             "matches": [{
                     "name": 15,
                     "type": "group",
                     "home_team": 31,
                     "away_team": 32,
                     "home_result": 1,
-                    "away_result": 1,
+                    "away_result": 2,
                     "date": "2018-06-19T15:00:00+03:00",
                     "stadium": 9,
                     "finished": false,

@@ -101,10 +101,10 @@
             "id": 1,
             "name": "Russia",
             "fifaCode": "RUS",
-            "pontos": 4,
+            "pontos": 6,
             "flag": "../assets/imgs/teams/900px-Flag_of_Russia.png",
             "jogos": 2,
-            "saldoGols": 5
+            "saldoGols": 7
         },
         {
             "id": 2,
@@ -119,10 +119,10 @@
             "id": 3,
             "name": "Egypt",
             "fifaCode": "EGY",
-            "pontos": 1,
+            "pontos": 0,
             "flag": "../assets/imgs/teams/900px-Flag_of_Egypt.png",
             "jogos": 2,
-            "saldoGols": -1
+            "saldoGols": -2
         },
         {
             "id": 4,

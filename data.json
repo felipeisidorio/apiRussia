@@ -788,30 +788,6 @@
             "runnerup": null,
             "teams": [22,  23, 24, 21],
             "matches": [{
-                    "name": 11,
-                    "type": "group",
-                    "home_team": 21,
-                    "away_team": 22,
-                    "home_result": 0,
-                    "away_result": 1,
-                    "date": "2018-06-17T18:00:00+03:00",
-                    "stadium": 1,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 12,
-                    "type": "group",
-                    "home_team": 23,
-                    "away_team": 24,
-                    "home_result": 1,
-                    "away_result": 0,
-                    "date": "2018-06-18T15:00:00+03:00",
-                    "stadium": 6,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
                     "name": 27,
                     "type": "group",
                     "home_team": 24,
@@ -858,6 +834,29 @@
                     "stadium": 12,
                     "finished": false,
                     "matchday": 3
+                },{
+                    "name": 11,
+                    "type": "group",
+                    "home_team": 21,
+                    "away_team": 22,
+                    "home_result": 0,
+                    "away_result": 1,
+                    "date": "2018-06-17T18:00:00+03:00",
+                    "stadium": 1,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 12,
+                    "type": "group",
+                    "home_team": 23,
+                    "away_team": 24,
+                    "home_result": 1,
+                    "away_result": 0,
+                    "date": "2018-06-18T15:00:00+03:00",
+                    "stadium": 6,
+                    "finished": false,
+                    "matchday": 1
                 }
             ]
         },
@@ -867,30 +866,6 @@
             "runnerup": null,
             "teams": [25,28, 27, 26],
             "matches": [{
-                    "name": 13,
-                    "type": "group",
-                    "home_team": 25,
-                    "away_team": 26,
-                    "home_result": 3,
-                    "away_result": 0,
-                    "date": "2018-06-18T18:00:00+03:00",
-                    "stadium": 11,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
-                    "name": 14,
-                    "type": "group",
-                    "home_team": 27,
-                    "away_team": 28,
-                    "home_result": 1,
-                    "away_result": 2,
-                    "date": "2018-06-18T21:00:00+03:00",
-                    "stadium": 8,
-                    "finished": false,
-                    "matchday": 1
-                },
-                {
                     "name": 29,
                     "type": "group",
                     "home_team": 25,
@@ -937,6 +912,30 @@
                     "stadium": 9,
                     "finished": false,
                     "matchday": 3
+                },
+                {
+                    "name": 13,
+                    "type": "group",
+                    "home_team": 25,
+                    "away_team": 26,
+                    "home_result": 3,
+                    "away_result": 0,
+                    "date": "2018-06-18T18:00:00+03:00",
+                    "stadium": 11,
+                    "finished": false,
+                    "matchday": 1
+                },
+                {
+                    "name": 14,
+                    "type": "group",
+                    "home_team": 27,
+                    "away_team": 28,
+                    "home_result": 1,
+                    "away_result": 2,
+                    "date": "2018-06-18T21:00:00+03:00",
+                    "stadium": 8,
+                    "finished": false,
+                    "matchday": 1
                 }
             ]
         },

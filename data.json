@@ -104,7 +104,7 @@
             "pontos": 6,
             "flag": "../assets/imgs/teams/900px-Flag_of_Russia.png",
             "jogos": 2,
-            "saldoGols": 8
+            "saldoGols": 7
         },
         {
             "id": 2,
@@ -122,7 +122,7 @@
             "pontos": 0,
             "flag": "../assets/imgs/teams/900px-Flag_of_Egypt.png",
             "jogos": 2,
-            "saldoGols": -3
+            "saldoGols": -2
         },
         {
             "id": 4,
@@ -397,8 +397,8 @@
                     "type": "group",
                     "home_team": 1,
                     "away_team": 3,
-                    "home_result": 0,
-                    "away_result": 0,
+                    "home_result": 3,
+                    "away_result": 1,
                     "date": "2018-06-19T21:00:00+03:00",
                     "stadium": 3,
                     "finished": false,

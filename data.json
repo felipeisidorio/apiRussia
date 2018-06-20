@@ -1024,21 +1024,6 @@
             "matches": [{
                     "name": 49,
                     "type": "qualified",
-                    "home_team": "1° C",
-                    "away_team": "2° D",
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-06-30T21:00:00+03:00",
-                    "stadium": 5,
-                    "finished": false,
-                    "matchday": 4
-                },
-                {
-                    "name": 50,
-                    "type": "qualified",
                     "home_team": "1° A",
                     "away_team": "2° B",
                     "home_result": null,
@@ -1048,6 +1033,21 @@
                     "winner": null,
                     "date": "2018-06-30T17:00:00+03:00",
                     "stadium": 11,
+                    "finished": false,
+                    "matchday": 4
+                },
+                {
+                    "name": 50,
+                    "type": "qualified",
+                    "home_team": "1° C",
+                    "away_team": "2° D",
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-06-30T21:00:00+03:00",
+                    "stadium": 5,
                     "finished": false,
                     "matchday": 4
                 },
@@ -1066,23 +1066,8 @@
                     "finished": false,
                     "matchday": 4
                 },
-                {
+                 {
                     "name": 52,
-                    "type": "qualified",
-                    "home_team": "1° E",
-                    "away_team": "2° F",
-                    "home_result": null,
-                    "away_result": null,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-07-02T18:00:00+04:00",
-                    "stadium": 7,
-                    "finished": false,
-                    "matchday": 4
-                },
-                {
-                    "name": 53,
                     "type": "qualified",
                     "home_team": "1° D",
                     "away_team": "2° C",
@@ -1093,6 +1078,21 @@
                     "winner": null,
                     "date": "2018-07-01T21:00:00+03:00",
                     "stadium": 6,
+                    "finished": false,
+                    "matchday": 4
+                },
+                {
+                    "name": 53,
+                    "type": "qualified",
+                    "home_team": "1° E",
+                    "away_team": "2° F",
+                    "home_result": null,
+                    "away_result": null,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-07-02T18:00:00+04:00",
+                    "stadium": 7,
                     "finished": false,
                     "matchday": 4
                 },
@@ -1178,8 +1178,8 @@
                 {
                     "name": 59,
                     "type": "winner",
-                    "home_team": 55,
-                    "away_team": 56,
+                    "home_team": 51,
+                    "away_team": 52,
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,
@@ -1193,8 +1193,8 @@
                 {
                     "name": 60,
                     "type": "winner",
-                    "home_team": 51,
-                    "away_team": 52,
+                    "home_team": 55,
+                    "away_team": 56,
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,

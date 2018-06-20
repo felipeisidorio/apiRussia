@@ -137,10 +137,10 @@
             "id": 5,
             "name": "Portugal",
             "fifaCode": "POR",
-            "pontos": 1,
+            "pontos": 4,
             "flag": "../assets/imgs/teams/600px-Flag_of_Portugal.png",
-            "jogos": 1,
-            "saldoGols": 0
+            "jogos": 2,
+            "saldoGols": 1
         },
         {
             "id": 6,
@@ -157,8 +157,8 @@
             "fifaCode": "MAR",
             "pontos": 0,
             "flag": "../assets/imgs/teams/900px-Flag_of_Morocco.png",
-            "jogos": 1,
-            "saldoGols": -1
+            "jogos": 2,
+            "saldoGols": -2
         },
         {
             "id": 8,
@@ -476,8 +476,8 @@
                     "type": "group",
                     "home_team": 5,
                     "away_team": 7,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 1,
+                    "away_result": 0,
                     "date": "2018-06-20T15:00:00+03:00",
                     "stadium": 1,
                     "finished": false,

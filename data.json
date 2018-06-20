@@ -146,9 +146,9 @@
             "id": 6,
             "name": "Spain",
             "fifaCode": "ESP",
-            "pontos": 1,
+            "pontos": 2,
             "flag": "../assets/imgs/teams/750px-Flag_of_Spain.png",
-            "jogos": 1,
+            "jogos": 2,
             "saldoGols": 0
         },
         {
@@ -164,9 +164,9 @@
             "id": 8,
             "name": "Iran",
             "fifaCode": "IRN",
-            "pontos": 3,
+            "pontos": 4,
             "flag": "../assets/imgs/teams/630px-Flag_of_Iran.png",
-            "jogos": 1,
+            "jogos": 2,
             "saldoGols": 1
         },
         {
@@ -488,8 +488,8 @@
                     "type": "group",
                     "home_team": 8,
                     "away_team": 6,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-20T21:00:00+03:00",
                     "stadium": 5,
                     "finished": false,

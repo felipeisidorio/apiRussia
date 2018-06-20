@@ -146,10 +146,10 @@
             "id": 6,
             "name": "Spain",
             "fifaCode": "ESP",
-            "pontos": 2,
+            "pontos": 4,
             "flag": "../assets/imgs/teams/750px-Flag_of_Spain.png",
             "jogos": 2,
-            "saldoGols": 0
+            "saldoGols": 1
         },
         {
             "id": 7,
@@ -164,10 +164,10 @@
             "id": 8,
             "name": "Iran",
             "fifaCode": "IRN",
-            "pontos": 4,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/630px-Flag_of_Iran.png",
             "jogos": 2,
-            "saldoGols": 1
+            "saldoGols": 0
         },
         {
             "id": 9,
@@ -470,7 +470,7 @@
             "name": "Group B",
             "winner": null,
             "runnerup": null,
-            "teams": [ 5, 8, 6 ,7],
+            "teams": [ 5, 6 ,8, 7],
             "matches": [{
                     "name": 19,
                     "type": "group",
@@ -489,7 +489,7 @@
                     "home_team": 8,
                     "away_team": 6,
                     "home_result": 0,
-                    "away_result": 0,
+                    "away_result": 1,
                     "date": "2018-06-20T21:00:00+03:00",
                     "stadium": 5,
                     "finished": false,

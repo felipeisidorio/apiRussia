@@ -393,30 +393,6 @@
             "runnerup": null,
             "teams": [1,  4, 3,  2],
             "matches": [{
-                    "name": 17,
-                    "type": "group",
-                    "home_team": 1,
-                    "away_team": 3,
-                    "home_result": 3,
-                    "away_result": 1,
-                    "date": "2018-06-19T21:00:00+03:00",
-                    "stadium": 3,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 18,
-                    "type": "group",
-                    "home_team": 4,
-                    "away_team": 2,
-                    "home_result": 1,
-                    "away_result": 0,
-                    "date": "2018-06-20T18:00:00+03:00",
-                    "stadium": 10,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
                     "name": 33,
                     "type": "group",
                     "home_team": 4,
@@ -463,6 +439,30 @@
                     "stadium": 12,
                     "finished": false,
                     "matchday": 1
+                },
+                {
+                    "name": 17,
+                    "type": "group",
+                    "home_team": 1,
+                    "away_team": 3,
+                    "home_result": 3,
+                    "away_result": 1,
+                    "date": "2018-06-19T21:00:00+03:00",
+                    "stadium": 3,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 18,
+                    "type": "group",
+                    "home_team": 4,
+                    "away_team": 2,
+                    "home_result": 1,
+                    "away_result": 0,
+                    "date": "2018-06-20T18:00:00+03:00",
+                    "stadium": 10,
+                    "finished": false,
+                    "matchday": 2
                 }
             ]
         },
@@ -1040,8 +1040,8 @@
                 {
                     "name": 50,
                     "type": "qualified",
-                    "home_team": "winner_a",
-                    "away_team": "runner_b",
+                    "home_team": "1° [Russia/Uruguay]",
+                    "away_team": "2° [Portugal/Spain]",
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,
@@ -1055,8 +1055,8 @@
                 {
                     "name": 51,
                     "type": "qualified",
-                    "home_team": "winner_b",
-                    "away_team": "runner_a",
+                    "home_team": "1° [Portugal/Spain]",
+                    "away_team": "2° [Russia/Uruguay]",
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,

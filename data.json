@@ -470,7 +470,7 @@
             "name": "Group B",
             "winner": null,
             "runnerup": null,
-            "teams": [ 8, 6 , 5 ,7],
+            "teams": [ 5, 8, 6   ,7],
             "matches": [{
                     "name": 19,
                     "type": "group",

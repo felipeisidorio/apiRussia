@@ -1039,8 +1039,8 @@
                 {
                     "name": 50,
                     "type": "qualified",
-                    "home_team": "1° [Russia/Uruguay]",
-                    "away_team": "2° [Portugal/Spain]",
+                    "home_team": "1° [RUS/URU]",
+                    "away_team": "2° [POR/ESP]",
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,
@@ -1054,8 +1054,8 @@
                 {
                     "name": 51,
                     "type": "qualified",
-                    "home_team": "1° [Portugal/Spain]",
-                    "away_team": "2° [Russia/Uruguay]",
+                    "home_team": "1° [POR/ESP]",
+                    "away_team": "2° [RUS/URU]",
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,

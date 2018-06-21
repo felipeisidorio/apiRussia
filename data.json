@@ -230,7 +230,7 @@
             "pontos": 6,
             "flag": "../assets/imgs/teams/800px-Flag_of_Croatia.png",
             "jogos": 2,
-            "saldoGols": 4
+            "saldoGols": 5
         },
         {
             "id": 16,
@@ -627,7 +627,7 @@
             "name": "Group D",
             "winner": null,
             "runnerup": null,
-            "teams": [15, 13, 14, 16],
+            "teams": [15, 14, 13, 16],
             "matches": [{
                     "name": 23,
                     "type": "group",

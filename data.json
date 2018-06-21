@@ -191,10 +191,10 @@
             "id": 11,
             "name": "Peru",
             "fifaCode": "PER",
-            "pontos": 1,
+            "pontos": 0,
             "flag": "../assets/imgs/teams/900px-Flag_of_Peru.png",
             "jogos": 2,
-            "saldoGols": -1
+            "saldoGols": -2
         },
         {
             "id": 12,
@@ -548,7 +548,7 @@
             "name": "Group C",
             "winner": null,
             "runnerup": null,
-            "teams": [9 ,12, 11, 10],
+            "teams": [9 ,12, 10, 11],
             "matches": [{
                     "name": 21,
                     "type": "group",

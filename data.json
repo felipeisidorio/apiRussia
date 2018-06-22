@@ -254,10 +254,10 @@
             "id": 18,
             "name": "Switzerland",
             "fifaCode": "SUI",
-            "pontos": 1,
+            "pontos": 2,
             "flag": "../assets/imgs/teams/320px-Flag_of_Switzerland.png",
             "jogos": 2,
-            "saldoGols": -1
+            "saldoGols": 0
         },
         {
             "id": 19,
@@ -272,10 +272,10 @@
             "id": 20,
             "name": "Serbia",
             "fifaCode": "SRB",
-            "pontos": 6,
+            "pontos": 4,
             "flag": "../assets/imgs/teams/1350px-Flag_of_Serbia.png",
             "jogos": 2,
-            "saldoGols": 2
+            "saldoGols": 1
         },
         {
             "id": 21,
@@ -724,7 +724,7 @@
                     "home_team": 20,
                     "away_team": 18,
                     "home_result": 1,
-                    "away_result": 0,
+                    "away_result": 1,
                     "date": "2018-06-22T20:00:00+02:00",
                     "stadium": 4,
                     "finished": false,

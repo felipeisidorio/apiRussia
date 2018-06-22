@@ -254,10 +254,10 @@
             "id": 18,
             "name": "Switzerland",
             "fifaCode": "SUI",
-            "pontos": 2,
+            "pontos": 4,
             "flag": "../assets/imgs/teams/320px-Flag_of_Switzerland.png",
             "jogos": 2,
-            "saldoGols": 0
+            "saldoGols": 1
         },
         {
             "id": 19,
@@ -272,10 +272,10 @@
             "id": 20,
             "name": "Serbia",
             "fifaCode": "SRB",
-            "pontos": 4,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/1350px-Flag_of_Serbia.png",
             "jogos": 2,
-            "saldoGols": 1
+            "saldoGols": 0
         },
         {
             "id": 21,
@@ -705,31 +705,8 @@
             "name": "Group E",
             "winner": null,
             "runnerup": null,
-            "teams": [ 17 , 20, 18, 19 ],
-            "matches": [{
-                    "name": 25,
-                    "type": "group",
-                    "home_team": 17,
-                    "away_team": 19,
-                    "home_result": 2,
-                    "away_result": 0,
-                    "date": "2018-06-22T15:00:00+03:00",
-                    "stadium": 3,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 26,
-                    "type": "group",
-                    "home_team": 20,
-                    "away_team": 18,
-                    "home_result": 1,
-                    "away_result": 1,
-                    "date": "2018-06-22T20:00:00+02:00",
-                    "stadium": 4,
-                    "finished": false,
-                    "matchday": 2
-                },
+            "teams": [ 17 , 18, 20,  19 ],
+            "matches": [
                 {
                     "name": 41,
                     "type": "group",
@@ -777,6 +754,29 @@
                     "stadium": 10,
                     "finished": false,
                     "matchday": 1
+                },{
+                    "name": 25,
+                    "type": "group",
+                    "home_team": 17,
+                    "away_team": 19,
+                    "home_result": 2,
+                    "away_result": 0,
+                    "date": "2018-06-22T15:00:00+03:00",
+                    "stadium": 3,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 26,
+                    "type": "group",
+                    "home_team": 20,
+                    "away_team": 18,
+                    "home_result": 1,
+                    "away_result": 2,
+                    "date": "2018-06-22T20:00:00+02:00",
+                    "stadium": 4,
+                    "finished": false,
+                    "matchday": 2
                 }
             ]
         },

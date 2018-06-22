@@ -245,9 +245,9 @@
             "id": 17,
             "name": "Brazil",
             "fifaCode": "BRA",
-            "pontos": 1,
+            "pontos": 2,
             "flag": "../assets/imgs/teams/720px-Flag_of_Brazil.png",
-            "jogos": 1,
+            "jogos": 2,
             "saldoGols": 0
         },
         {
@@ -263,9 +263,9 @@
             "id": 19,
             "name": "Costa Rica",
             "fifaCode": "CRC",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/833px-Flag_of_Costa_Rica.png",
-            "jogos": 1,
+            "jogos": 2,
             "saldoGols": -1
         },
         {
@@ -712,8 +712,8 @@
                     "type": "group",
                     "home_team": 17,
                     "away_team": 19,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-22T15:00:00+03:00",
                     "stadium": 3,
                     "finished": false,

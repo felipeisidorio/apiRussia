@@ -218,7 +218,7 @@
             "id": 14,
             "name": "Iceland",
             "fifaCode": "ISL",
-            "pontos": 2,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/800px-Flag_of_Iceland.png",
             "jogos": 2,
             "saldoGols": 0
@@ -236,10 +236,10 @@
             "id": 16,
             "name": "Nigeria",
             "fifaCode": "NGA",
-            "pontos": 1,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/800px-Flag_of_Nigeria.png",
             "jogos": 2,
-            "saldoGols": -2
+            "saldoGols": -1
         },
         {
             "id": 17,
@@ -627,7 +627,7 @@
             "name": "Group D",
             "winner": null,
             "runnerup": null,
-            "teams": [15, 14, 13, 16],
+            "teams": [15, , 16, 14, 13],
             "matches": [{
                     "name": 23,
                     "type": "group",
@@ -645,7 +645,7 @@
                     "type": "group",
                     "home_team": 16,
                     "away_team": 14,
-                    "home_result": 0,
+                    "home_result": 1,
                     "away_result": 0,
                     "date": "2018-06-22T18:00:00+03:00",
                     "stadium": 8,

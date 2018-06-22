@@ -627,7 +627,7 @@
             "name": "Group D",
             "winner": null,
             "runnerup": null,
-            "teams": [15, , 16, 14, 13],
+            "teams": [15,  16, 14, 13],
             "matches": [{
                     "name": 39,
                     "type": "group",

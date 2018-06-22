@@ -218,9 +218,9 @@
             "id": 14,
             "name": "Iceland",
             "fifaCode": "ISL",
-            "pontos": 1,
+            "pontos": 2,
             "flag": "../assets/imgs/teams/800px-Flag_of_Iceland.png",
-            "jogos": 1,
+            "jogos": 2,
             "saldoGols": 0
         },
         {
@@ -236,9 +236,9 @@
             "id": 16,
             "name": "Nigeria",
             "fifaCode": "NGA",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/800px-Flag_of_Nigeria.png",
-            "jogos": 1,
+            "jogos": 2,
             "saldoGols": -2
         },
         {
@@ -645,8 +645,8 @@
                     "type": "group",
                     "home_team": 16,
                     "away_team": 14,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-22T18:00:00+03:00",
                     "stadium": 8,
                     "finished": false,

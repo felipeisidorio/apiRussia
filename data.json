@@ -353,9 +353,9 @@
             "id": 29,
             "name": "Poland",
             "fifaCode": "POL",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/1280px-Flag_of_Poland.png",
-            "jogos": 1,
+            "jogos": 2,
             "saldoGols": -1
         },
         {
@@ -371,9 +371,9 @@
             "id": 31,
             "name": "Colombia",
             "fifaCode": "COL",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/450px-Flag_of_Colombia.png",
-            "jogos": 1,
+            "jogos": 2,
             "saldoGols": -1
         },
         {
@@ -957,8 +957,8 @@
                     "type": "group",
                     "home_team": 29,
                     "away_team": 31,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-24T21:00:00+03:00",
                     "stadium": 5,
                     "finished": false,

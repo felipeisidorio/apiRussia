@@ -362,10 +362,10 @@
             "id": 30,
             "name": "Senegal",
             "fifaCode": "SEN",
-            "pontos": 6,
+            "pontos": 4,
             "flag": "../assets/imgs/teams/800px-Flag_of_Senegal.png",
             "jogos": 2,
-            "saldoGols": 2
+            "saldoGols": 1
         },
         {
             "id": 31,
@@ -380,10 +380,10 @@
             "id": 32,
             "name": "Japan",
             "fifaCode": "JPN",
-            "pontos": 3,
+            "pontos": 4,
             "flag": "../assets/imgs/teams/900px-Flag_of_Japan.png",
             "jogos": 2,
-            "saldoGols": 0
+            "saldoGols": 1
         }
     ],
     "groups": {
@@ -945,7 +945,7 @@
                     "type": "group",
                     "home_team": 32,
                     "away_team": 30,
-                    "home_result": 0,
+                    "home_result": 1,
                     "away_result": 1,
                     "date": "2018-06-24T20:00:00+05:00",
                     "stadium": 12,

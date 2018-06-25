@@ -103,17 +103,17 @@
             "fifaCode": "RUS",
             "pontos": 6,
             "flag": "../assets/imgs/teams/900px-Flag_of_Russia.png",
-            "jogos": 2,
-            "saldoGols": 7
+            "jogos": 3,
+            "saldoGols": 4
         },
         {
             "id": 2,
             "name": "Saudi Arabia",
             "fifaCode": "KSA",
-            "pontos": 0,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/750px-Flag_of_Saudi_Arabia.png",
-            "jogos": 2,
-            "saldoGols": -6
+            "jogos": 3,
+            "saldoGols": -5
         },
         {
             "id": 3,
@@ -121,52 +121,52 @@
             "fifaCode": "EGY",
             "pontos": 0,
             "flag": "../assets/imgs/teams/900px-Flag_of_Egypt.png",
-            "jogos": 2,
-            "saldoGols": -3
+            "jogos": 3,
+            "saldoGols": -4
         },
         {
             "id": 4,
             "name": "Uruguay",
             "fifaCode": "URU",
-            "pontos": 6,
+            "pontos": 9,
             "flag": "../assets/imgs/teams/900px-Flag_of_Uruguay.png",
-            "jogos": 2,
-            "saldoGols": 2
+            "jogos": 3,
+            "saldoGols": 5
         },
         {
             "id": 5,
             "name": "Portugal",
             "fifaCode": "POR",
-            "pontos": 4,
+            "pontos": 5,
             "flag": "../assets/imgs/teams/600px-Flag_of_Portugal.png",
-            "jogos": 2,
+            "jogos": 3,
             "saldoGols": 1
         },
         {
             "id": 6,
             "name": "Spain",
             "fifaCode": "ESP",
-            "pontos": 4,
+            "pontos": 5,
             "flag": "../assets/imgs/teams/750px-Flag_of_Spain.png",
-            "jogos": 2,
+            "jogos": 3,
             "saldoGols": 1
         },
         {
             "id": 7,
             "name": "Morocco",
             "fifaCode": "MAR",
-            "pontos": 0,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/900px-Flag_of_Morocco.png",
-            "jogos": 2,
+            "jogos": 3,
             "saldoGols": -2
         },
         {
             "id": 8,
             "name": "Iran",
             "fifaCode": "IRN",
-            "pontos": 3,
+            "pontos": 4,
             "flag": "../assets/imgs/teams/630px-Flag_of_Iran.png",
-            "jogos": 2,
+            "jogos": 3,
             "saldoGols": 0
         },
         {
@@ -356,7 +356,7 @@
             "pontos": 0,
             "flag": "../assets/imgs/teams/1280px-Flag_of_Poland.png",
             "jogos": 2,
-            "saldoGols": -3
+            "saldoGols": -4
         },
         {
             "id": 30,
@@ -374,7 +374,7 @@
             "pontos": 3,
             "flag": "../assets/imgs/teams/450px-Flag_of_Colombia.png",
             "jogos": 2,
-            "saldoGols": 1
+            "saldoGols": 2
         },
         {
             "id": 32,
@@ -391,14 +391,14 @@
             "name": "Group A",
             "winner": null,
             "runnerup": null,
-            "teams": [1,  4, 3,  2],
+            "teams": [  4, 1, 2, 3],
             "matches": [{
                     "name": 33,
                     "type": "group",
                     "home_team": 4,
                     "away_team": 1,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 3,
+                    "away_result": 0,
                     "date": "2018-06-25T18:00:00+04:00",
                     "stadium": 7,
                     "finished": false,
@@ -409,8 +409,8 @@
                     "type": "group",
                     "home_team": 2,
                     "away_team": 3,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 2,
+                    "away_result": 1,
                     "date": "2018-06-25T17:00:00+03:00",
                     "stadium": 8,
                     "finished": false,
@@ -476,8 +476,8 @@
                     "type": "group",
                     "home_team": 8,
                     "away_team": 5,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-25T21:00:00+03:00",
                     "stadium": 9,
                     "finished": false,
@@ -488,8 +488,8 @@
                     "type": "group",
                     "home_team": 6,
                     "away_team": 7,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-25T20:00:00+02:00",
                     "stadium": 4,
                     "finished": false,
@@ -958,7 +958,7 @@
                     "home_team": 29,
                     "away_team": 31,
                     "home_result": 0,
-                    "away_result": 2,
+                    "away_result": 3,
                     "date": "2018-06-24T21:00:00+03:00",
                     "stadium": 5,
                     "finished": false,

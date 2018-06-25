@@ -941,30 +941,6 @@
             "runnerup": null,
             "teams": [30,32 , 31, 29 ],
             "matches": [{
-                    "name": 31,
-                    "type": "group",
-                    "home_team": 32,
-                    "away_team": 30,
-                    "home_result": 1,
-                    "away_result": 1,
-                    "date": "2018-06-24T20:00:00+05:00",
-                    "stadium": 12,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
-                    "name": 32,
-                    "type": "group",
-                    "home_team": 29,
-                    "away_team": 31,
-                    "home_result": 0,
-                    "away_result": 3,
-                    "date": "2018-06-24T21:00:00+03:00",
-                    "stadium": 5,
-                    "finished": false,
-                    "matchday": 2
-                },
-                {
                     "name": 47,
                     "type": "group",
                     "home_team": 32,
@@ -1011,6 +987,30 @@
                     "stadium": 2,
                     "finished": false,
                     "matchday": 1
+                },
+                {
+                    "name": 31,
+                    "type": "group",
+                    "home_team": 32,
+                    "away_team": 30,
+                    "home_result": 1,
+                    "away_result": 1,
+                    "date": "2018-06-24T20:00:00+05:00",
+                    "stadium": 12,
+                    "finished": false,
+                    "matchday": 2
+                },
+                {
+                    "name": 32,
+                    "type": "group",
+                    "home_team": 29,
+                    "away_team": 31,
+                    "home_result": 0,
+                    "away_result": 3,
+                    "date": "2018-06-24T21:00:00+03:00",
+                    "stadium": 5,
+                    "finished": false,
+                    "matchday": 2
                 }
             ]
         }

@@ -146,16 +146,16 @@
             "id": 6,
             "name": "Spain",
             "fifaCode": "ESP",
-            "pontos": 5,
+            "pontos": 4,
             "flag": "../assets/imgs/teams/750px-Flag_of_Spain.png",
             "jogos": 3,
-            "saldoGols": 1
+            "saldoGols": 0
         },
         {
             "id": 7,
             "name": "Morocco",
             "fifaCode": "MAR",
-            "pontos": 1,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/900px-Flag_of_Morocco.png",
             "jogos": 3,
             "saldoGols": -2
@@ -489,7 +489,7 @@
                     "home_team": 6,
                     "away_team": 7,
                     "home_result": 0,
-                    "away_result": 0,
+                    "away_result": 1,
                     "date": "2018-06-25T20:00:00+02:00",
                     "stadium": 4,
                     "finished": false,

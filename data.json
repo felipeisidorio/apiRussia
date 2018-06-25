@@ -389,8 +389,8 @@
     "groups": {
         "a": {
             "name": "Group A",
-            "winner": null,
-            "runnerup": null,
+            "winner": "Uruguay",
+            "runnerup": "Russia",
             "teams": [  4, 1, 2, 3],
             "matches": [{
                     "name": 33,
@@ -1021,7 +1021,7 @@
             "matches": [{
                     "name": 49,
                     "type": "qualified",
-                    "home_team": "1° A",
+                    "home_team": "URU",
                     "away_team": "2° B",
                     "home_result": null,
                     "away_result": null,
@@ -1052,7 +1052,7 @@
                     "name": 51,
                     "type": "qualified",
                     "home_team": "1° B",
-                    "away_team": "2° A",
+                    "away_team": "RUS",
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,

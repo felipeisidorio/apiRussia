@@ -137,28 +137,28 @@
             "id": 5,
             "name": "Portugal",
             "fifaCode": "POR",
-            "pontos": 7,
+            "pontos": 5,
             "flag": "../assets/imgs/teams/600px-Flag_of_Portugal.png",
             "jogos": 3,
-            "saldoGols": 2
+            "saldoGols": 1
         },
         {
             "id": 6,
             "name": "Spain",
             "fifaCode": "ESP",
-            "pontos": 4,
+            "pontos": 5,
             "flag": "../assets/imgs/teams/750px-Flag_of_Spain.png",
             "jogos": 3,
-            "saldoGols": 0
+            "saldoGols": 1
         },
         {
             "id": 7,
             "name": "Morocco",
             "fifaCode": "MAR",
-            "pontos": 3,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/900px-Flag_of_Morocco.png",
             "jogos": 3,
-            "saldoGols": -1
+            "saldoGols": -2
         },
         {
             "id": 8,
@@ -468,15 +468,15 @@
         },
         "b": {
             "name": "Group B",
-            "winner": null,
-            "runnerup": null,
-            "teams": [ 5, 6 ,8, 7],
+            "winner": "ESP",
+            "runnerup": "POR",
+            "teams": [ 6, 5, 8, 7],
             "matches": [{
                     "name": 35,
                     "type": "group",
                     "home_team": 8,
                     "away_team": 5,
-                    "home_result": 0,
+                    "home_result": 1,
                     "away_result": 1,
                     "date": "2018-06-25T21:00:00+03:00",
                     "stadium": 9,
@@ -488,8 +488,8 @@
                     "type": "group",
                     "home_team": 6,
                     "away_team": 7,
-                    "home_result": 1,
-                    "away_result": 1,
+                    "home_result": 2,
+                    "away_result": 2,
                     "date": "2018-06-25T20:00:00+02:00",
                     "stadium": 4,
                     "finished": false,
@@ -1021,8 +1021,8 @@
             "matches": [{
                     "name": 49,
                     "type": "qualified",
-                    "home_team": "URU",
-                    "away_team": "2° B",
+                    "home_team": 4,
+                    "away_team": 5,
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,
@@ -1051,8 +1051,8 @@
                 {
                     "name": 51,
                     "type": "qualified",
-                    "home_team": "1° B",
-                    "away_team": "RUS",
+                    "home_team": 6,
+                    "away_team": 1,
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,

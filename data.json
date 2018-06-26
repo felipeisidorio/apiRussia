@@ -1036,8 +1036,8 @@
                 {
                     "name": 50,
                     "type": "qualified",
-                    "home_team": "1° C",
-                    "away_team": "2° D",
+                    "home_team": 9,
+                    "away_team": 13,
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,
@@ -1066,8 +1066,8 @@
                  {
                     "name": 52,
                     "type": "qualified",
-                    "home_team": "1° D",
-                    "away_team": "2° C",
+                    "home_team": 15,
+                    "away_team": 12,
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,

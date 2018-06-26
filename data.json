@@ -182,19 +182,19 @@
             "id": 10,
             "name": "Australia",
             "fifaCode": "AUS",
-            "pontos": 2,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/1280px-Flag_of_Australia.png",
             "jogos": 3,
-            "saldoGols": -1
+            "saldoGols": -2
         },
         {
             "id": 11,
             "name": "Peru",
             "fifaCode": "PER",
-            "pontos": 1,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/900px-Flag_of_Peru.png",
             "jogos": 3,
-            "saldoGols": -2
+            "saldoGols": -1
         },
         {
             "id": 12,
@@ -548,7 +548,7 @@
             "name": "Group C",
             "winner": null,
             "runnerup": null,
-            "teams": [9 ,12, 10, 11],
+            "teams": [9 ,12, 11, 10],
             "matches": [{
                     "name": 37,
                     "type": "group",
@@ -567,7 +567,7 @@
                     "home_team": 10,
                     "away_team": 11,
                     "home_result": 0,
-                    "away_result": 0,
+                    "away_result": 1,
                     "date": "2018-06-26T17:00:00+02:00",
                     "stadium": 11,
                     "finished": false,

@@ -218,19 +218,19 @@
             "id": 14,
             "name": "Iceland",
             "fifaCode": "ISL",
-            "pontos": 2,
+            "pontos": 1,
             "flag": "../assets/imgs/teams/800px-Flag_of_Iceland.png",
             "jogos": 3,
-            "saldoGols": -2
+            "saldoGols": -3
         },
         {
             "id": 15,
             "name": "Croatia",
             "fifaCode": "CRO",
-            "pontos": 7,
+            "pontos": 9,
             "flag": "../assets/imgs/teams/800px-Flag_of_Croatia.png",
             "jogos": 3,
-            "saldoGols": 5
+            "saldoGols": 6
         },
         {
             "id": 16,
@@ -633,8 +633,8 @@
                     "type": "group",
                     "home_team": 16,
                     "away_team": 13,
-                    "home_result": 0,
-                    "away_result": 1,
+                    "home_result": 1,
+                    "away_result": 2,
                     "date": "2018-06-26T21:00:00+03:00",
                     "stadium": 3,
                     "finished": false,
@@ -645,8 +645,8 @@
                     "type": "group",
                     "home_team": 14,
                     "away_team": 15,
-                    "home_result": 0,
-                    "away_result": 0,
+                    "home_result": 1,
+                    "away_result": 2,
                     "date": "2018-06-26T21:00:00+03:00",
                     "stadium": 10,
                     "finished": false,

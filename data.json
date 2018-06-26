@@ -194,7 +194,7 @@
             "pontos": 3,
             "flag": "../assets/imgs/teams/900px-Flag_of_Peru.png",
             "jogos": 3,
-            "saldoGols": -1
+            "saldoGols": 0
         },
         {
             "id": 12,
@@ -209,27 +209,27 @@
             "id": 13,
             "name": "Argentina",
             "fifaCode": "ARG",
-            "pontos": 1,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/800px-Flag_of_Argentina.png",
-            "jogos": 2,
-            "saldoGols": -3
+            "jogos": 3,
+            "saldoGols": -2
         },
         {
             "id": 14,
             "name": "Iceland",
             "fifaCode": "ISL",
-            "pontos": 1,
+            "pontos": 2,
             "flag": "../assets/imgs/teams/800px-Flag_of_Iceland.png",
-            "jogos": 2,
+            "jogos": 3,
             "saldoGols": 0
         },
         {
             "id": 15,
             "name": "Croatia",
             "fifaCode": "CRO",
-            "pontos": 6,
+            "pontos": 7,
             "flag": "../assets/imgs/teams/800px-Flag_of_Croatia.png",
-            "jogos": 2,
+            "jogos": 3,
             "saldoGols": 5
         },
         {
@@ -238,8 +238,8 @@
             "fifaCode": "NGA",
             "pontos": 3,
             "flag": "../assets/imgs/teams/800px-Flag_of_Nigeria.png",
-            "jogos": 2,
-            "saldoGols": 0
+            "jogos": 3,
+            "saldoGols": -1
         },
         {
             "id": 17,
@@ -567,7 +567,7 @@
                     "home_team": 10,
                     "away_team": 11,
                     "home_result": 0,
-                    "away_result": 1,
+                    "away_result": 2,
                     "date": "2018-06-26T17:00:00+02:00",
                     "stadium": 11,
                     "finished": false,
@@ -627,14 +627,14 @@
             "name": "Group D",
             "winner": null,
             "runnerup": null,
-            "teams": [15,  16, 14, 13],
+            "teams": [15,  16, 13, 14 ],
             "matches": [{
                     "name": 39,
                     "type": "group",
                     "home_team": 16,
                     "away_team": 13,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 1,
                     "date": "2018-06-26T21:00:00+03:00",
                     "stadium": 3,
                     "finished": false,
@@ -645,8 +645,8 @@
                     "type": "group",
                     "home_team": 14,
                     "away_team": 15,
-                    "home_result": null,
-                    "away_result": null,
+                    "home_result": 0,
+                    "away_result": 0,
                     "date": "2018-06-26T21:00:00+03:00",
                     "stadium": 10,
                     "finished": false,

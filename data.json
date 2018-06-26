@@ -209,7 +209,7 @@
             "id": 13,
             "name": "Argentina",
             "fifaCode": "ARG",
-            "pontos": 3,
+            "pontos": 4,
             "flag": "../assets/imgs/teams/800px-Flag_of_Argentina.png",
             "jogos": 3,
             "saldoGols": -2
@@ -221,7 +221,7 @@
             "pontos": 2,
             "flag": "../assets/imgs/teams/800px-Flag_of_Iceland.png",
             "jogos": 3,
-            "saldoGols": 0
+            "saldoGols": -2
         },
         {
             "id": 15,
@@ -627,7 +627,7 @@
             "name": "Group D",
             "winner": null,
             "runnerup": null,
-            "teams": [15,  16, 13, 14 ],
+            "teams": [15, 13, 16, 14 ],
             "matches": [{
                     "name": 39,
                     "type": "group",

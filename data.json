@@ -245,10 +245,10 @@
             "id": 17,
             "name": "Brazil",
             "fifaCode": "BRA",
-            "pontos": 5,
+            "pontos": 7,
             "flag": "../assets/imgs/teams/720px-Flag_of_Brazil.png",
             "jogos": 3,
-            "saldoGols": 2
+            "saldoGols": 4
         },
         {
             "id": 18,
@@ -274,8 +274,8 @@
             "fifaCode": "SRB",
             "pontos": 3,
             "flag": "../assets/imgs/teams/1350px-Flag_of_Serbia.png",
-            "jogos": 2,
-            "saldoGols": 0
+            "jogos": 3,
+            "saldoGols": -2
         },
         {
             "id": 21,
@@ -713,7 +713,7 @@
                     "home_team": 20,
                     "away_team": 17,
                     "home_result": 0,
-                    "away_result": 0,
+                    "away_result": 2,
                     "date": "2018-06-27T21:00:00+03:00",
                     "stadium": 2,
                     "finished": false,
@@ -724,8 +724,8 @@
                     "type": "group",
                     "home_team": 18,
                     "away_team": 19,
-                    "home_result": 0,
-                    "away_result": 0,
+                    "home_result": 1,
+                    "away_result": 1,
                     "date": "2018-06-27T21:00:00+03:00",
                     "stadium": 6,
                     "finished": false,
@@ -1081,8 +1081,8 @@
                 {
                     "name": 53,
                     "type": "qualified",
-                    "home_team": "1° E",
-                    "away_team": "2° F",
+                    "home_team": 17,
+                    "away_team": 22,
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,
@@ -1111,8 +1111,8 @@
                 {
                     "name": 55,
                     "type": "qualified",
-                    "home_team": "1° F",
-                    "away_team": "2° E",
+                    "home_team": 23,
+                    "away_team": 18,
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,

@@ -185,7 +185,7 @@
             "pontos": 1,
             "flag": "../assets/imgs/teams/1280px-Flag_of_Australia.png",
             "jogos": 3,
-            "saldoGols": -2
+            "saldoGols": -3
         },
         {
             "id": 11,
@@ -861,7 +861,7 @@
             "name": "Group G",
             "winner": null,
             "runnerup": null,
-            "teams": [28, 25,  26, 27],
+            "teams": [28, 25,  27, 26],
             "matches": [{
                     "name": 45,
                     "type": "group",

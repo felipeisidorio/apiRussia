@@ -353,19 +353,19 @@
             "id": 29,
             "name": "Poland",
             "fifaCode": "POL",
-            "pontos": 1,
+            "pontos": 3,
             "flag": "../assets/imgs/teams/1280px-Flag_of_Poland.png",
             "jogos": 3,
-            "saldoGols": -4
+            "saldoGols": -3
         },
         {
             "id": 30,
             "name": "Senegal",
             "fifaCode": "SEN",
-            "pontos": 5,
+            "pontos": 4,
             "flag": "../assets/imgs/teams/800px-Flag_of_Senegal.png",
             "jogos": 3,
-            "saldoGols": 1
+            "saldoGols": 0
         },
         {
             "id": 31,
@@ -374,16 +374,16 @@
             "pontos": 4,
             "flag": "../assets/imgs/teams/450px-Flag_of_Colombia.png",
             "jogos": 3,
-            "saldoGols": 2
+            "saldoGols": 3
         },
         {
             "id": 32,
             "name": "Japan",
             "fifaCode": "JPN",
-            "pontos": 5,
+            "pontos": 4,
             "flag": "../assets/imgs/teams/900px-Flag_of_Japan.png",
             "jogos": 3,
-            "saldoGols": 1
+            "saldoGols": 0
         }
     ],
     "groups": {
@@ -939,14 +939,14 @@
             "name": "Group H",
             "winner": null,
             "runnerup": null,
-            "teams": [32 , 30, 31, 29 ],
+            "teams": [31 ,32, 30, 29 ],
             "matches": [{
                     "name": 47,
                     "type": "group",
                     "home_team": 32,
                     "away_team": 29,
                     "home_result": 0,
-                    "away_result": 0,
+                    "away_result": 1,
                     "date": "2018-06-28T17:00:00+03:00",
                     "stadium": 8,
                     "finished": false,
@@ -958,7 +958,7 @@
                     "home_team": 30,
                     "away_team": 31,
                     "home_result": 0,
-                    "away_result": 0,
+                    "away_result": 1,
                     "date": "2018-06-28T18:00:00+04:00",
                     "stadium": 7,
                     "finished": false,

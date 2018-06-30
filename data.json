@@ -1146,8 +1146,8 @@
             "matches": [{
                     "name": 57,
                     "type": "winner",
-                    "home_team": 4,
-                    "away_team": 50,
+                    "home_team": 9,
+                    "away_team": 4,
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,

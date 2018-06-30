@@ -1018,28 +1018,13 @@
     "knockout": {
         "round_16": {
             "name": "Round of 16",
-            "matches": [{
+            "matches": [ {
                     "name": 49,
-                    "type": "qualified",
-                    "home_team": 4,
-                    "away_team": 5,
-                    "home_result": 4,
-                    "away_result": 3,
-                    "home_penalty": null,
-                    "away_penalty": null,
-                    "winner": null,
-                    "date": "2018-06-30T21:00:00+03:00",
-                    "stadium": 11,
-                    "finished": false,
-                    "matchday": 4
-                },
-                {
-                    "name": 50,
                     "type": "qualified",
                     "home_team": 9,
                     "away_team": 13,
-                    "home_result": 1,
-                    "away_result": 0,
+                    "home_result": 4,
+                    "away_result": 3,
                     "home_penalty": null,
                     "away_penalty": null,
                     "winner": null,
@@ -1048,6 +1033,22 @@
                     "finished": false,
                     "matchday": 4
                 },
+                {
+                    "name": 50,
+                    "type": "qualified",
+                    "home_team": 4,
+                    "away_team": 5,
+                    "home_result": 1,
+                    "away_result": 0,
+                    "home_penalty": null,
+                    "away_penalty": null,
+                    "winner": null,
+                    "date": "2018-06-30T21:00:00+03:00",
+                    "stadium": 11,
+                    "finished": false,
+                    "matchday": 4
+                },
+               
                 {
                     "name": 51,
                     "type": "qualified",

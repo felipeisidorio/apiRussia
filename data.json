@@ -1225,7 +1225,7 @@
                 {
                     "name": 62,
                     "type": "winner",
-                    "home_team": 59,
+                    "home_team": "RUS|CRO",
                     "away_team": 60,
                     "home_result": null,
                     "away_result": null,

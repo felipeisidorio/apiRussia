@@ -1161,8 +1161,8 @@
                 {
                     "name": 58,
                     "type": "winner",
-                    "home_team": "BRA ou MEX",
-                    "away_team": "BEL ou JPN",
+                    "home_team": "BRA|MEX",
+                    "away_team": "BEL|JPN",
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,
@@ -1176,8 +1176,8 @@
                 {
                     "name": 59,
                     "type": "winner",
-                    "home_team": "ESP ou RUS",
-                    "away_team": "CRO ou DEN",
+                    "home_team": "ESP|RUS",
+                    "away_team": "CRO|DEN",
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,
@@ -1191,8 +1191,8 @@
                 {
                     "name": 60,
                     "type": "winner",
-                    "home_team": "SWE ou SUI",
-                    "away_team": "COL ou ENG",
+                    "home_team": "SWE|SUI",
+                    "away_team": "COL|ENG",
                     "home_result": null,
                     "away_result": null,
                     "home_penalty": null,

@@ -49,7 +49,7 @@
         },
         {
             "id": 7,
-            "name": "Cosmos Arena",
+            "name": " Samara Arena",
             "city": "Samara",
             "lat": 53.278146,
             "lng": 50.238854,
@@ -81,7 +81,7 @@
         },
         {
             "id": 11,
-            "name": "Fisht Olympic Stadium",
+            "name": "Sochi Stadium",
             "city": "Sochi",
             "lat": 43.402011,
             "lng": 39.955709,
@@ -89,7 +89,7 @@
         },
         {
             "id": 12,
-            "name": "Central Stadium",
+            "name": "Yekaterinburg Stadium",
             "city": "Yekaterinburg",
             "lat": 56.832490,
             "lng": 60.573585,

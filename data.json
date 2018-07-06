@@ -1015,7 +1015,7 @@
             ]
         }
     },
-    "knockout": {
+    "knockout": {       
         "round_8": {
             "name": "Quarter-finals",
             "matches": [{
@@ -1148,8 +1148,9 @@
                 "stadium": 1,
                 "finished": false,
                 "matchday": 7
-            },
-             "round_16": {
+            }]
+        },
+        "round_16": {
             "name": "Round of 16",
             "matches": [ {
                     "name": 49,
@@ -1273,8 +1274,6 @@
                     "matchday": 4
                 }
             ]
-        }
-   ]
         }
     },
     "convocados": [{

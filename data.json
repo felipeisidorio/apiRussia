@@ -1210,7 +1210,7 @@
             "matches": [{
                     "name": 61,
                     "type": "winner",
-                    "home_team": 9,
+                    "home_team": "FRA",
                     "away_team": "BRA|BEL",
                     "home_result": null,
                     "away_result": null,

@@ -1244,8 +1244,8 @@
             "matches": [{
                 "name": 63,
                 "type": "loser",
-                "home_team": "Venc 61",
-                "away_team": "Venc 62",
+                "home_team": "Perd 61",
+                "away_team": "Perd 62",
                 "home_result": null,
                 "away_result": null,
                 "home_penalty": null,
@@ -1262,8 +1262,8 @@
             "matches": [{
                 "name": 64,
                 "type": "winner",
-                "home_team": "61",
-                "away_team": "62",
+                "home_team": "Venc 61",
+                "away_team": "Venc 62",
                 "home_result": null,
                 "away_result": null,
                 "home_penalty": null,
